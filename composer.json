@@ -91,7 +91,7 @@
             "drush/Commands/{$name}": ["type:drupal-drush"]
         }
     },
-    scripts: {
+    "scripts": {
         "post-create-project-cmd": [
           "wget -O composer.phar https://getcomposer.org/composer-stable.phar"
         ]
