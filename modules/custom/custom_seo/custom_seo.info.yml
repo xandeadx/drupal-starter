@@ -1,0 +1,5 @@
+name: Custom SEO
+type: module
+description: SEO functionality.
+package: Custom
+core_version_requirement: ^8 || ^9
