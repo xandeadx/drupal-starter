@@ -93,7 +93,8 @@
     },
     "scripts": {
         "post-create-project-cmd": [
-          "wget -O composer.phar https://getcomposer.org/composer-stable.phar"
+          "wget -O composer.phar https://getcomposer.org/composer-stable.phar",
+          "git clone --branch 2.x https://git.drupalcode.org/project/xbase.git"
         ]
     }
 }
