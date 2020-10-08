@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: admin
+label: admin
+effects:
+  403ede0b-bf12-45e1-9483-b39aa6eaafed:
+    uuid: 403ede0b-bf12-45e1-9483-b39aa6eaafed
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 60
+      height: 40

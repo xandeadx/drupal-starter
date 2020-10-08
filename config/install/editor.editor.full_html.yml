@@ -1,0 +1,86 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - ckeditor
+    - editor_file
+format: full_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - RemoveFormat
+            - Bold
+            - Italic
+            - Blockquote
+        -
+          name: Linking
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Align
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+        -
+          name: Paste
+          items:
+            - Paste
+            - PasteText
+            - PasteFromWord
+        -
+          name: Media
+          items:
+            - DrupalImage
+            - DrupalFile
+            - Table
+            - HorizontalRule
+            - SpecialChar
+        -
+          name: 'Block Formatting'
+          items:
+            - Format
+        -
+          name: Undo/Redo
+          items:
+            - Undo
+            - Redo
+        -
+          name: Tools
+          items:
+            - ShowBlocks
+            - Source
+            - Maximize
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: ''
+image_upload:
+  status: true
+  scheme: public
+  directory: unmanaged/inline
+  max_size: '10 MB'
+  max_dimensions:
+    width: null
+    height: null
+third_party_settings:
+  editor_file:
+    status: true
+    scheme: public
+    directory: unmanaged/inline
+    extensions: 'txt csv doc docx xls xlsx rar zip 7z'
+    max_size: '10 MB'

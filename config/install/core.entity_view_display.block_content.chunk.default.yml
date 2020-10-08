@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.chunk
+    - field.field.block_content.chunk.body
+  module:
+    - text
+id: block_content.chunk.default
+targetEntityType: block_content
+bundle: chunk
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
