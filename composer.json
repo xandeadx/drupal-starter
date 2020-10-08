@@ -90,5 +90,10 @@
             "themes/{$name}": ["type:drupal-theme", "type:drupal-custom-theme"],
             "drush/Commands/{$name}": ["type:drupal-drush"]
         }
+    },
+    scripts: {
+        "post-create-project-cmd": [
+          "wget -O composer.phar https://getcomposer.org/composer-stable.phar",
+        ]
     }
 }
