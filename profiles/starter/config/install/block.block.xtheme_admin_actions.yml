@@ -1,0 +1,18 @@
+uuid: e8371040-4d56-4382-abab-03352db1b621
+langcode: en
+status: true
+dependencies:
+  theme:
+    - xtheme
+id: xtheme_admin_actions
+theme: xtheme
+region: content
+weight: 2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

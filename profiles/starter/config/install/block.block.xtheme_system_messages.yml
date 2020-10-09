@@ -1,0 +1,20 @@
+uuid: 2fd7533c-bf8f-4f95-a5de-b0e06506bc78
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - xtheme
+id: xtheme_system_messages
+theme: xtheme
+region: content
+weight: -1
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'System messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

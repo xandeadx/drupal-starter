@@ -1,0 +1,20 @@
+uuid: d4c08460-567b-408c-8744-9b15d5e554a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - xtheme
+id: xtheme_page_content
+theme: xtheme
+region: content
+weight: 3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

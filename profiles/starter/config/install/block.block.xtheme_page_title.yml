@@ -1,0 +1,18 @@
+uuid: d39ccb40-4ba3-4ea4-89f9-c5d501218863
+langcode: en
+status: true
+dependencies:
+  theme:
+    - xtheme
+id: xtheme_page_title
+theme: xtheme
+region: content
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
