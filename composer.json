@@ -93,8 +93,11 @@
     },
     "scripts": {
         "post-create-project-cmd": [
+          "composer remove drupal/core-composer-scaffold --update-no-dev --no-scripts",
           "wget -O composer.phar https://getcomposer.org/composer-stable.phar",
-          "git clone --branch 2.x https://git.drupalcode.org/project/xbase.git themes/xbase"
+          "git clone --branch 2.x https://git.drupalcode.org/project/xbase.git themes/xbase",
+          "cp --recursive --force themes/xbase/xtheme themes/xtheme",
+          "sed -i 's/starter-theme/theme/g' themes/xtheme/xtheme.info.yml"
         ]
     }
 }
