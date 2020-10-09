@@ -1,0 +1,939 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+msgid "Title"
+msgstr "Заголовок"
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Page"
+msgstr "Страница"
+
+msgid "« First"
+msgstr "« Первая"
+
+msgid "Next ›"
+msgstr "Следующая ›"
+
+msgid "next ›"
+msgstr "следующая ›"
+
+msgid "‹ Previous"
+msgstr "‹ Предыдущая"
+
+msgid "Last »"
+msgstr "Последняя »"
+
+msgid "last »"
+msgstr "последняя »"
+
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Operations"
+msgstr "Действия"
+
+msgid "Default"
+msgstr "По умолчанию"
+
+msgid "Content"
+msgstr "Содержимое"
+
+msgid "Filter"
+msgstr "Фильтр"
+
+msgid "Reset"
+msgstr "Сбросить"
+
+msgid "Entity view (@label)"
+msgstr "Вывод сущности (@label)"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "Users"
+msgstr "Пользователи"
+
+msgid "Apply"
+msgstr "Применить"
+
+msgid "Action"
+msgstr "Действие"
+
+msgid "Subject"
+msgstr "Тема"
+
+msgid "Author name"
+msgstr "Имя автора"
+
+msgid "Author Name"
+msgstr "Имя автора"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "Created"
+msgstr "Создано"
+
+msgid "Posted in"
+msgstr "Создано в"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Devel"
+msgstr "Отладка"
+
+msgid "Confirm password"
+msgstr "Пароль повторно"
+
+msgid "Writable"
+msgstr "Запись разрешена"
+
+msgid "Reference"
+msgstr "Связь"
+
+msgid "Filter by view name, machine name, description, or display path"
+msgstr "Фильтр по названию, машинному имени, описанию или пути"
+
+msgid "Content CSS class name(s)"
+msgstr "CSS классы для контента"
+
+msgid "The configuration options have been saved."
+msgstr "Настройки сохранены."
+
+msgid "Add @type"
+msgstr "Добавить \"@type\""
+
+msgid "Add @display"
+msgstr "Добавить \"@display\""
+
+msgid "This text will be displayed on the <em>Add new content</em> page."
+msgstr "Данный текст будет отображаться на странице добавления содержимого."
+
+msgid "This text will be displayed on the <em>Add product</em> page."
+msgstr "Данный текст будет отображаться на странице добавления товара."
+
+msgid "Placeholder"
+msgstr "Заглушка"
+
+msgid "No placeholder"
+msgstr "Без заглушки"
+
+msgid "Autocomplete suggestion list size: @size"
+msgstr "Число пунктов в автодополнении: @size"
+
+msgid "Visually Hidden"
+msgstr "Визуально скрыто"
+
+msgid "Rendered entity"
+msgstr "Отрендеренная сущность"
+
+msgid "Comments"
+msgstr "Комментарии"
+
+msgid "Comments published"
+msgstr "Опубликованные комментарии"
+
+msgid "Comments unapproved"
+msgstr "Непроверенные комментарии"
+
+msgid "Recent comments"
+msgstr "Последние комментарии"
+
+msgid "Published comments"
+msgstr "Опубликованные комментарии"
+
+msgid "No comments available."
+msgstr "Комментарии отсутствуют."
+
+msgid "Unapproved comments"
+msgstr "Непроверенные комментарии"
+
+msgid "Delete comment"
+msgstr "Удалить комментарий"
+
+msgid "Unpublish comment"
+msgstr "Снять комментарий с публикации"
+
+msgid "Time ago"
+msgstr "Прошло времени"
+
+msgid "Upload date"
+msgstr "Дата загрузки"
+
+msgid "Updated"
+msgstr "Обновлён"
+
+msgid "There are no @label yet."
+msgstr "Пока ещё нет \"@label\"."
+
+msgid "This link is provided by the @name module. The title and path cannot be edited."
+msgstr "Эта ссылка добавлена модулем \"@name\". Заголовок и путь не могут быть изменены."
+
+msgid "Open in dialog"
+msgstr "Открывать в диалоге"
+
+msgid "Open in new tab"
+msgstr "Открывать в новой вкладке"
+
+msgid "Item class"
+msgstr "Класс пункта"
+
+msgid "Item"
+msgstr "Элемент"
+
+msgid "Items"
+msgstr "Элементы"
+
+msgid "Upload button state"
+msgstr "Состояние кнопки загрузки"
+
+msgid "Removed"
+msgstr "Удалённый"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Auto upload"
+msgstr "Автоматическая загрузка"
+
+msgid "Summary or trimmed"
+msgstr "Анонс или обрезанный текст"
+
+msgid "Show for the listed pages"
+msgstr "Отображать на перечисленных страницах"
+
+msgid "Hide for the listed pages"
+msgstr "Скрывать на перечисленных страницах"
+
+msgid "Region"
+msgstr "Регион"
+
+msgid "Body"
+msgstr "Содержимое"
+
+msgid "Render cache cleared."
+msgstr "Рендер-кэш очищен."
+
+msgid "Development"
+msgstr "Разработка"
+
+msgid "Backup Complete."
+msgstr "Бэкап завершён."
+
+msgid "Private Files Directory"
+msgstr "Приватная директория"
+
+msgid "Public Files Directory"
+msgstr "Общедоступная директория"
+
+msgid "Restore To"
+msgstr "Восстановить в"
+
+msgid "Most recent backups in %dest"
+msgstr "Последние бэкапы в \"%dest\""
+
+msgid "View all backups in %dest"
+msgstr "Смотреть все бэкапы в \"%dest\""
+
+msgid "Backups in @destination_name"
+msgstr "Бэкапы в \"@destination_name\""
+
+msgid "Backup"
+msgstr "Бэкап"
+
+msgid "Backup and Migrate"
+msgstr "Бэкап и миграция"
+
+msgid "Backup Destination"
+msgstr "Расположение бэкапа"
+
+msgid "Add Settings Profile"
+msgstr "Добавить профиль настроек"
+
+msgid "Add settings profile"
+msgstr "Добавить профиль настроек"
+
+msgid "Quick Backup"
+msgstr "Быстрый бэкап"
+
+msgid "Advanced Backup"
+msgstr "Продвинутый бэкап"
+
+msgid "Backup now"
+msgstr "Сделать бэкап"
+
+msgid "Saved the %label Settings Profile."
+msgstr "Профиль настроек \"%label\" сохранён."
+
+msgid "Take site offline"
+msgstr "Отключить сайт"
+
+msgid "Add Schedule"
+msgstr "Добавить расписание"
+
+msgid "Last Run"
+msgstr "Последний запуск"
+
+msgid "Schedule enabled"
+msgstr "Расписание включено"
+
+msgid "Run every"
+msgstr "Выполнять каждые"
+
+msgid "Number to keep"
+msgstr "Число сохранений"
+
+msgid "Edit settings profile"
+msgstr "Редактировать настройки профиля"
+
+msgid "Colorbox settings"
+msgstr "Настройки Colorbox"
+
+msgid "Image styles"
+msgstr "Стили изображений"
+
+msgid "Image toolkit"
+msgstr "Средство обработки изображений"
+
+msgid "Saved %label configuration."
+msgstr "Конфигурация \"%label\" сохранена."
+
+msgid "Dynamic height"
+msgstr "Динамическая высота"
+
+msgid "Always show the summary field"
+msgstr "Всегда показывать поле анонса"
+
+msgid "@type %title has been updated."
+msgstr "Материал \"%title\" типа \"@type\" обновлён."
+
+msgid "Master"
+msgstr "Основной"
+
+msgid "The view %name has been saved."
+msgstr "Представление \"%name\" сохранено."
+
+msgid "Filter criteria"
+msgstr "Фильтры"
+
+msgid "Sort Criteria"
+msgstr "Сортировка"
+
+msgid "Sort criteria"
+msgstr "Сортировка"
+
+msgid "Sort criterion"
+msgstr "Сортировка"
+
+msgid "Ordered list"
+msgstr "Нумерованный список"
+
+msgid "Ordered list - use the &lt;li&gt; to begin each list item"
+msgstr "Нумерованный список – используйте &lt;li&gt; для создания элемента"
+
+msgid "Add @display"
+msgstr "Добавить \"@display\""
+
+msgid "Changed"
+msgstr "Изменённый"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Emails"
+msgstr "E-mails"
+
+msgid "Form mode"
+msgstr "Вид формы"
+
+msgid "Form modes"
+msgstr "Виды формы"
+
+msgid "Form mode: @mode"
+msgstr "Вид формы: @mode"
+
+msgid "%module module installed."
+msgstr "Модуль \"%module\" установлен."
+
+msgid "%field settings for %bundle"
+msgstr "Настройки поля \"%field\" у бандла \"%bundle\""
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "Add custom language"
+msgstr "Добавить свой язык"
+
+msgid "Filter translatable strings"
+msgstr "Фильтр переводов"
+
+msgid "Restore the site's database from a backup file."
+msgstr "Восстановление базы данных сайта из бэкапа."
+
+msgid "You can reorganize the terms in %capital_name using their drag-and-drop handles, and group terms under a parent term by sliding them under and to the right of the parent."
+msgstr "Вы можете изменить порядок терминов в словаре \"%capital_name\", перетащив термин мышкой в нужное место."
+
+msgid "Created new term %term."
+msgstr "Термин \"%term\" создан."
+
+msgid "Your settings have been saved."
+msgstr "Ваши настройки сохранены."
+
+msgid "Add new @entity-type %label"
+msgstr "Добавить \"@entity-type\" \"%label\""
+
+msgid "Preview image style: @style"
+msgstr "Стиль предпросмотра изображения: @style"
+
+msgid "N/A"
+msgstr "Неизвестно"
+
+msgid "Preview"
+msgstr "Предпросмотр"
+
+msgid "Revisions for %title"
+msgstr "Редакции \"%title\""
+
+msgid "@entity_type revisions"
+msgstr "Редакции \"@entity_type\""
+
+msgid "@langname revisions for %title"
+msgstr "Редакции \"@langname\" материала \"%title\""
+
+msgid "All"
+msgstr "Все"
+
+msgid "- All -"
+msgstr "- Все -"
+
+msgid "Save and edit"
+msgstr "Сохранить и продолжить редактировать"
+
+msgid "Link to the @entity_label"
+msgstr "Ссылается на \"@entity_label\""
+
+msgid "Pager link labels"
+msgstr "Названия ссылок постраничного навигатора"
+
+msgid "Renders an entity in a view mode."
+msgstr "Выводит сущность в выбранном режиме просмотра."
+
+msgid "Link to @entity_type_label"
+msgstr "Ссылка на \"@entity_type_label\""
+
+msgid "Link to delete @entity_type_label"
+msgstr "Ссылка на удаление \"@entity_type_label\""
+
+msgid "Link to edit @entity_type_label"
+msgstr "Ссылка на редактирование \"@entity_type_label\""
+
+msgid "Operations links"
+msgstr "Ссылки управления"
+
+msgid "The menu link has been saved."
+msgstr "Ссылка меню сохранена."
+
+msgid "filter criterion"
+msgstr "фильтр"
+
+msgid "Is one of"
+msgstr "Один из"
+
+msgid "Appears in: @bundles."
+msgstr "Находится в: @bundles."
+
+msgid "Dropbutton"
+msgstr "Раскрывающаяся кнопка"
+
+msgid "Drop button"
+msgstr "Раскрывающаяся кнопка"
+
+msgid "Provide custom text or link."
+msgstr "Предоставляет пользовательский текст или ссылку."
+
+msgid "Display fields in a dropbutton."
+msgstr "Показывает поля в выпадающем меню."
+
+msgid "Colorbox library"
+msgstr "Библиотека Colorbox"
+
+msgid "Access the @type overview page"
+msgstr "Доступ к странице обзора \"@type\""
+
+msgid "Access the Files overview page"
+msgstr "Доступ к странице обзора файлов"
+
+msgid "Access the Content overview page"
+msgstr "Доступ к странице обзора материалов"
+
+msgid "Access the taxonomy vocabulary overview page"
+msgstr "Доступ к странице обзора терминов таксономии"
+
+msgid "Provide a view link to the @entity_type_label."
+msgstr "Предоставляет ссылку на просмотр \"@entity_type_label\"."
+
+msgid "Provide an edit link to the @entity_type_label."
+msgstr "Предоставляет ссылку на редактирования \"@entity_type_label\"."
+
+msgid "Provide a delete link to the @entity_type_label."
+msgstr "Предоставляет ссылку на удаление \"@entity_type_label\"."
+
+msgid "Provides links to perform entity operations."
+msgstr "Предоставляет ссылки действий над сущностью."
+
+msgid "Display fields in a contextual links menu."
+msgstr "Показывает поля в контекстных ссылках."
+
+msgid "Recent log messages"
+msgstr "Последние сообщения в логе"
+
+msgid "Flush"
+msgstr "Очистить"
+
+msgid "Flush CSS and Javascript"
+msgstr "Очистить CSS и Javascript"
+
+msgid "Flush plugins cache"
+msgstr "Очистить кэш плагинов"
+
+msgid "Flush static cache"
+msgstr "Очистить кэш статических переменных"
+
+msgid "Flush routing and links cache"
+msgstr "Очистить кэш роутов и ссылок"
+
+msgid "Flush twig cache"
+msgstr "Очистить кэш твига"
+
+msgid "Flush render cache"
+msgstr "Очистить кэш рендера"
+
+msgid "Flush views cache"
+msgstr "Очистить кэш представлений"
+
+msgid "Flush all caches"
+msgstr "Очистить все кэши"
+
+msgid "All caches cleared."
+msgstr "Все кэши очищены."
+
+msgid "Config editor"
+msgstr "Редактор конфигураций"
+
+msgid "Logout"
+msgstr "Выйти"
+
+msgid "Views"
+msgstr "Представление"
+
+msgid "Views Block"
+msgstr "Блок представления"
+
+msgid "Views Exposed Filter Block"
+msgstr "Блок с раскрытыми фильтрами"
+
+msgid "Devel Toolbar Settings"
+msgstr "Настройки Devel Toolbar"
+
+msgid "Devel settings"
+msgstr "Настройки модуля Devel"
+
+msgid "Element Info"
+msgstr "Информация об элементах"
+
+msgid "Entity info"
+msgstr "Информация о сущности"
+
+msgid "Execute PHP Code"
+msgstr "Выполнить PHP код"
+
+msgid "Execute"
+msgstr "Выполнить"
+
+msgid "Additional settings"
+msgstr "Дополнительные настройки"
+
+msgid "Name field label"
+msgstr "Название поля \"Имя\""
+
+msgid "E-mail field label"
+msgstr "Название поля \"E-mail\""
+
+msgid "Subject field label"
+msgstr "Название поля \"Заголовок\""
+
+msgid "Message field label"
+msgstr "Название поля \"Сообщение\""
+
+msgid "Required fields"
+msgstr "Обязательные поля"
+
+msgid "AJAX submit"
+msgstr "Отправка с помощью AJAX"
+
+msgid "Hide preview button"
+msgstr "Скрыть кнопку предпросмотра"
+
+msgid "Edit content"
+msgstr "Редактировать содержимое"
+
+msgid "List"
+msgstr "Список"
+
+msgid "Contact form"
+msgstr "Контактная форма"
+
+msgid "With selection"
+msgstr "С выбранными"
+
+msgid "Apply to selected items"
+msgstr "Применить к выбранным элементам"
+
+msgid "Sort by"
+msgstr "Сортировать по"
+
+msgid "Desc"
+msgstr "По убыванию"
+
+msgid "Asc"
+msgstr "По возрастанию"
+
+msgid "Rendered entity - @label"
+msgstr "Отрендеренная сущность - @label"
+
+msgid "Published"
+msgstr "Опубликовано"
+
+msgid "Unpublished"
+msgstr "Неопубликованно"
+
+msgid "Full"
+msgstr "Полный"
+
+msgid "Unfiltered text"
+msgstr "Обычный текст"
+
+msgid "View @display_title"
+msgstr "Просмотреть \"@display_title\""
+
+msgid "Delete @display_title"
+msgstr "Удалить \"@display_title\""
+
+msgid "Duplicate @display_title"
+msgstr "Дублировать \"@display_title\""
+
+msgid "Disable @display_title"
+msgstr "Отключить \"@display_title\""
+
+msgid "Duplicate as @type"
+msgstr "Дублировать как \"@type\""
+
+msgid "Exposed form style"
+msgstr "Стиль раскрытых фильтров"
+
+msgid "Displays"
+msgstr "Дисплеи"
+
+msgid "Recently enabled"
+msgstr "Недавно включённые"
+
+msgid "Newly available"
+msgstr "Новые"
+
+msgid "Example modules"
+msgstr "Примеры модулей"
+
+msgid "Add @entity-type"
+msgstr "Добавить \"@entity-type\""
+
+msgid "Apply to selected items"
+msgstr "Применить к выбранным"
+
+msgid "Site email address"
+msgstr "E-mail адрес сайта"
+
+msgid "Sender email"
+msgstr "E-mail отправителя"
+
+msgid "The email of the person that is sending the contact message."
+msgstr "E-mail пользователя, отправившего сообщение через контактную форму."
+
+msgid "The comment author's email address."
+msgstr "E-mail автора комментария."
+
+msgid "Web page addresses and email addresses turn into links automatically."
+msgstr "Адреса веб-страниц и e-mail адреса преобразовываются в ссылки автоматически."
+
+msgid "Email addresses to notify when updates are available"
+msgstr "E-mail адрес для уведомлений о наличии обновлений"
+
+msgid "Edit %label"
+msgstr "Редактировать \"%label\""
+
+msgid "Sidebar first"
+msgstr "Первая боковая колонка"
+
+msgid "Sidebar second"
+msgstr "Вторая боковая колонка"
+
+msgid "User account menu"
+msgstr "Меню пользователя"
+
+msgid "Show as expanded"
+msgstr "Показывать раскрытым"
+
+msgid "A flag for whether the link should be enabled in menus or hidden."
+msgstr "Флаг, указывающий, показывать ссылку в меню или нет."
+
+msgid "Add menu link"
+msgstr "Добавить пункт меню"
+
+msgid "Add child item"
+msgstr "Добавить дочерний пункт"
+
+msgid "Add child term"
+msgstr "Добавить дочерний термин"
+
+msgid "Breadcrumb"
+msgstr "Хлебные крошки"
+
+msgid "Breadcrumbs"
+msgstr "Хлебные крошки"
+
+msgid "Status messages"
+msgstr "Системные сообщения"
+
+msgid "@type (module: @module)"
+msgstr "@type (модуль: @module)"
+
+msgid "Tokens related to random data."
+msgstr "Токены, связанные с случайными данными."
+
+msgid "Tokens related to the currently logged in user."
+msgstr "Токены, связанные с текущим пользователем."
+
+msgid "The administrative email address for the site."
+msgstr "Административный e-mail сайта."
+
+msgid "The URL of the site's front page without the protocol."
+msgstr "URL главной страницы сайта без \"http://\""
+
+msgid "The URL of the site's login page."
+msgstr "URL страницы входа."
+
+msgid "The display name of the user account."
+msgstr "Отображаемое имя пользователя."
+
+msgid "The email address of the user account."
+msgstr "E-mail адрес пользователя."
+
+msgid "The unique ID of the user account."
+msgstr "Идентификатор пользователя."
+
+msgid "The IP address of the current user."
+msgstr "IP-адрес текущего пользователя."
+
+msgid "The URL of the account profile page."
+msgstr "URL профиля пользователя."
+
+msgid "The login name of the user account."
+msgstr "Логин пользователя."
+
+msgid "The date the user last logged in to the site."
+msgstr "Дата последнего входа пользователя."
+
+msgid "Remote ID"
+msgstr "Внешний ID"
+
+msgid "True"
+msgstr "Да"
+
+msgid "False"
+msgstr "Нет"
+
+msgid "Block"
+msgstr "Блок"
+
+msgid "No blocks in this region"
+msgstr "В этом регионе блоков нет"
+
+msgid "Place block <span class=\"visually-hidden\">in the %region region</span>"
+msgstr "Разместить блок <span class=\"visually-hidden\">в регион \"%region\"</span>"
+
+msgid "The summary will also be visible when marked as required."
+msgstr "Поле \"Анонс\" будет всегда видимо и помечено обязательным."
+
+msgid "The menu is only visible if the menu item for the current page is at this level or below it. Use level 1 to always display this menu."
+msgstr "Меню выводится только если отображается хоть один пункт меню на текущей странице. Используйте уровень 1, чтобы всегда выводить это меню."
+
+msgid "If selected and this menu link has children, the menu will always appear expanded. This option may be overridden for the entire menu tree when placing a menu block."
+msgstr "Если отмечено и эта ссылка имеет дочерние пункты, то пункт будет всегда отображаться раскрытым. Эта опция может быть переопределена, когда меню выводится с помощью блока."
+
+msgid "Start typing the title of a piece of content to select it. You can also enter an internal path such as %add-node or an external URL such as %url. Enter %front to link to the front page. Enter %nolink to display link text only."
+msgstr "Чтобы выбрать материал начните вводить его заголовок. Вы так же можете ввести внутренний путь например \"%add-node\" или внешний адрес, например \"%url\". Введите \"%front\" для вывода ссылки на главную страницу. Введите \"%nolink\" для вывода только текста."
+
+msgid "Visitors will only see the maintenance mode message. Only users with the \"@permission-label\" <a href=\":permissions-url\">permission</a> will be able to access the site. Authorized users can log in directly via the <a href=\":user-login\">user login</a> page."
+msgstr "Обычные посетители вместо сайта увидят сообщение о недоступности. Пользоваться сайтом смогут только пользователи с <a href=\":permissions-url\">правом</a> \"@permission-label\". Для аутентификации будет доступна <a href=\":user-login\">страница входа</a>."
+
+msgid "Are you sure you want to remove the @entity-type %label?"
+msgstr "Вы действительно хотите удалить @entity-type \"%label\"?"
+
+msgid "Plugins cache cleared."
+msgstr "Кэш плагинов очищен."
+
+msgid "E-mail address for notifications."
+msgstr "E-mail адрес для уведомлений."
+
+msgid "E-mail address for notifications of new comments, contact messages and other."
+msgstr "E-mail адрес для уведомлений о новых комментариях, сообщениях с контактных форм и так далее."
+
+msgid "@name field is required."
+msgstr "Поле \"@name\" обязательно для заполнения."
+
+msgid "<em>Alt</em> field required"
+msgstr "Альтернативный заголовок обязателен для заполнения"
+
+msgid "<em>Title</em> field required"
+msgstr "Заголовок обязателен для заполнения"
+
+msgid "Number of values is required."
+msgstr "Поле \"Количество значений\" обязательно для заполнения."
+
+msgid "Unrecognized username or password. <a href=\":password\">Forgot your password?</a>"
+msgstr "Неправильное имя или пароль. <a href=\":password\">Забыли свой пароль?</a>"
+
+msgid "Contact email"
+msgstr "Контактный e-mail"
+
+msgid "Restore Complete."
+msgstr "Восстановление завершено."
+
+msgid "Save configuration"
+msgstr "Сохранить настройки"
+
+msgid "The email address %mail is not valid."
+msgstr "E-mail адрес \"%mail\" написан с ошибкой."
+
+msgid "Configure <span class=\"visually-hidden\">the @module module</span>"
+msgstr "Настроить <span class=\"visually-hidden\">модуль @module</span>"
+
+msgid "Autocomplete threshold: @threshold entities."
+msgstr "Ограничение автодополнения: @threshold сущности"
+
+msgid "Autocomplete size: @size characters"
+msgstr "Размер автодополнения: @size символов"
+
+msgid "Linked to the @entity_label"
+msgstr "Ссылается на \"@entity_label\""
+
+msgid "This field cardinality is set to @cardinality and cannot be configured."
+msgstr "Число значений этого поля установлено в @cardinality и не может быть изменено."
+
+msgid "CSS classes must be alphanumeric or dashes only."
+msgstr "CSS-классы должны содержать только буквы, цифры и знаки тире."
+
+msgid "Extra CSS classes"
+msgstr "Дополнительные CSS классы"
+
+msgid "This field cardinality is set to unlimited and cannot be configured."
+msgstr "Это поле имеет неограниченное число значений и это не может быть изменено."
+
+msgid "Short description of the image used by screen readers and displayed when the image is not loaded. Enabling this field is recommended."
+msgstr "Короткое описание изображения, используемое скринридерами и отображающееся если изображение не загрузилось. Рекомендуется включить это поле."
+
+msgid "Load default filter from node page, that's good for related taxonomy blocks"
+msgstr "Загрузить фильтр по умолчанию со страницы материала. Подходит для вывода в блоке связанных материалов."
+
+msgid "The title attribute is used as a tooltip when the mouse hovers over the image. Enabling this field is not recommended as it can cause problems with screen readers."
+msgstr "Атрибут \"title\" используется для вывода в подсказке при наведении мышки на изображение. Включение этого поля не рекомендуется, так как у скринридеров могут возникнуть трудности."
+
+msgid "Updated field %label field settings."
+msgstr "Настройки поля \"%label\" обновлены."
+
+msgid "Add @language translation for %label"
+msgstr "Добавить @language перевод для \"%label\""
+
+msgid "Hostname"
+msgstr "Сетевое имя компьютера"
+
+msgid "Hostname of the user who triggered the event."
+msgstr "Сетевое имя компьютера пользователя, который вызвал событие."
+
+msgid "The author's host name."
+msgstr "Сетевое имя компьютера автора."
+
+msgid "The comment author's hostname."
+msgstr "Сетевое имя компьютера автора комментария."
+
+msgid "Created a new user account for <a href=\":url\">%name</a>. No email has been sent."
+msgstr "Учётная запись <a href=\":url\">%name</a> успешно создана. E-mail с уведомлением не отправлялся."
+
+msgid "Field %field can only hold @max values but there were @count uploaded. The following files have been omitted as a result: %list."
+msgstr "Поле \"%field\" может иметь только @max значений(ия), поэтому следующие файлы были пропущены: %list."
+
+msgid "Successfully saved @language translation."
+msgstr "Перевод для языка \"@language\" успешно сохранён."
+
+msgid "Resave"
+msgstr "Пересохранить"
+
+msgid "From"
+msgstr "От"
+
+msgid "To"
+msgstr "В"
+
+msgid "Original language"
+msgstr "Язык оригинала"
+
+msgid "List (integer)"
+msgstr "Список (integer)"
+
+msgid "List (float)"
+msgstr "Список (float)"
+
+msgid "Number (decimal)"
+msgstr "Число (decimal)"
+
+msgid "Number (float)"
+msgstr "Число (float)"
+
+msgid "Number (integer)"
+msgstr "Число (integer)"
+
+msgid "The @type %title has been deleted."
+msgstr "@type \"%title\" был удалён."
+
+msgid "The @entity-type %label has been deleted."
+msgstr "@entity-type \"%label\" был удалён."
+
+msgid "Module %name has been enabled."
+msgid_plural "@count modules have been enabled: %names."
+msgstr[0] "Модуль \"%name\" установлен."
+msgstr[1] "@count модуля установлено: %names."
+msgstr[2] "@count[2] модулей установлено: %names."
+
+msgid "1 error has been found: "
+msgid_plural "@count errors have been found: "
+msgstr[0] "Обнаружена @count ошибка: "
+msgstr[1] "Обнаружено @count ошибки: "
+msgstr[2] "Обнаружено @count ошибок: "
+
+msgid "Deleted @count content item."
+msgid_plural "Deleted @count content items."
+msgstr[0] "Удалено @count материал."
+msgstr[1] "Удалено @count материала."
+msgstr[2] "Удалено @count материалов."

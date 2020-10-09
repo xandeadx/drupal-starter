@@ -1,0 +1,55 @@
+name: Starter
+type: profile
+description: Drupal starter profile
+core_version_requirement: ^8 || ^9
+install:
+  # Core
+  - drupal:automated_cron
+  - drupal:block
+  - drupal:block_content
+  - drupal:ckeditor
+  - drupal:config
+  - drupal:contact
+  - drupal:contextual
+  - drupal:datetime
+  - drupal:dblog
+  - drupal:editor
+  - drupal:field_ui
+  - drupal:file
+  - drupal:help
+  - drupal:image
+  - drupal:menu_link_content
+  - drupal:menu_ui
+  - drupal:node
+  - drupal:options
+  - drupal:path
+  - drupal:taxonomy
+  - drupal:views
+  - drupal:views_ui
+  # Contrib
+  - admin_toolbar:admin_toolbar
+  - admin_toolbar:admin_toolbar_tools
+  - backup_migrate:backup_migrate
+  - captcha:captcha
+  - colorbox:colorbox
+  - devel:devel
+  - devel_php:devel_php
+  - editor_file:editor_file
+  - image_resize_filter:image_resize_filter
+  - metatag:metatag
+  - module_filter:module_filter
+  - pathauto:pathauto
+  - swiftmailer:swiftmailer
+  - transliterate_filenames:transliterate_filenames
+  - twig_tweak:twig_tweak
+  - xmlsitemap:xmlsitemap
+  # My
+  - druhels:druhels
+  - function_filter:function_filter
+  - improvements:improvements
+  # Custom
+  - custom_admin:custom_admin
+  - custom_main:custom_main
+  - custom_seo:custom_seo
+themes:
+  - xseven

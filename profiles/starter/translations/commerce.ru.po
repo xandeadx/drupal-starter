@@ -1,0 +1,410 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+
+msgid "Add custom currency"
+msgstr "Добавить собственную валюту"
+
+msgid "Number patterns"
+msgstr "Шаблоны номера"
+
+msgid "Number pattern"
+msgstr "Шаблон номера"
+
+msgid "number pattern"
+msgstr "шаблон номера"
+
+msgid "Add number pattern"
+msgstr "Добавить шаблон номера"
+
+msgid "Number generation method"
+msgstr "Способ генерации номера"
+
+msgid "Infinite (Never reset)"
+msgstr "Бесконечный (никогда не сбрасывать)"
+
+msgid "Monthly (Reset every month)"
+msgstr "Ежемесячный (сбрасывать каждый месяц)"
+
+msgid "Yearly (Reset every year)"
+msgstr "Ежегодный (сбрасывать каждый год)"
+
+msgid "Initial number"
+msgstr "Начальный номер"
+
+msgid "Use fixed length numbers"
+msgstr "Использовать номер фиксированной длины"
+
+msgid "Hide if there's only one available entity."
+msgstr "Скрыть, если доступна только одна сущность."
+
+msgid "Hide if there's only one available entity"
+msgstr "Скрыть, если доступна только одна сущность"
+
+msgid "Product attributes overview"
+msgstr "Обзор атрибутов товара"
+
+msgid "Combine order items containing the same product variation."
+msgstr "Объединять позиции заказа, содержащие одинаковую вариацию товара."
+
+msgid "Product variation type"
+msgstr "Тип вариации товара"
+
+msgid "Product variation"
+msgstr "Вариация товара"
+
+msgid "Add product attribute"
+msgstr "Добавить атрибут товара"
+
+msgid "product attributes"
+msgstr "атрибуты товара"
+
+msgid "product attribute"
+msgstr "атрибут товара"
+
+msgid "Product attribute"
+msgstr "Атрибут товара"
+
+msgid "Manage your product attributes."
+msgstr "Управление атрибутами товара"
+
+msgid "product attribute value"
+msgstr "значение атрибута товара"
+
+msgid "Product attribute value"
+msgstr "Значение атрибута товара"
+
+msgid "Rendered attribute"
+msgstr "Отрендеренный атрибут"
+
+msgid "@count product"
+msgid_plural "@count products"
+msgstr[0] "@count товар"
+msgstr[1] "@count товара"
+msgstr[2] "@count товаров"
+
+msgid "Delete product"
+msgstr "Удалить товар"
+
+msgid "Save product"
+msgstr "Сохранить товар"
+
+msgid "Publish product"
+msgstr "Опубликовать товар"
+
+msgid "Unpublish product"
+msgstr "Снять товар с публикации"
+
+msgid "Cart form"
+msgstr "Форма корзины"
+
+msgid "Quantity text field"
+msgstr "Текстовое поле с количеством"
+
+msgid "Commerce Cart"
+msgstr "Модуль Commerce Cart"
+
+msgid "Commerce Order"
+msgstr "Модуль Commerce Order"
+
+msgid "Commerce Product"
+msgstr "Модуль Commerce Product"
+
+msgid "Placed"
+msgstr "Размещено"
+
+msgid "State"
+msgstr "Состояние"
+
+msgid "Checkout"
+msgstr "Оформление заказа"
+
+msgid "Checkout flows"
+msgstr "Процесс оформления"
+
+msgid "Display checkout progress"
+msgstr "Отображать прогресс оформления"
+
+msgid "Save to my address book."
+msgstr "Сохранить в мою адресную книгу."
+
+msgid "Order refresh"
+msgstr "Обновление заказа"
+
+msgid "Order refresh mode"
+msgstr "Способ обновления заказа"
+
+msgid "Order refresh frequency"
+msgstr "Частота обновления заказа"
+
+msgid "Shopping cart block view"
+msgstr "Представление блока с корзиной"
+
+msgid "Adjustments"
+msgstr "Корректировки"
+
+msgid "Allow users to add new @label."
+msgstr "Разрешить пользователям добавлять новые \"@label\"."
+
+msgid "Allow users to add existing @label."
+msgstr "Разрешить пользователям добавлять существующие \"@label\"."
+
+msgid "Allow users to duplicate @label."
+msgstr "Разрешить пользователям клонировать \"@label\"."
+
+msgid "Add profile type"
+msgstr "Добавить тип профиля"
+
+msgid "Allow multiple profiles"
+msgstr "Разрешить множество профилей"
+
+msgid "Include in user registration form"
+msgstr "Вставить в форму регистрации"
+
+msgid "This is a private field."
+msgstr "Это приватное поле"
+
+msgid "Field overrides"
+msgstr "Переопределение полей"
+
+msgid "- No override -"
+msgstr "- Не переопределять -"
+
+msgid "Your shopping cart has been updated."
+msgstr "Корзина обновлена."
+
+msgid "Wrapper element"
+msgstr "Обёрточный элемент"
+
+msgid "Continue to review"
+msgstr "Перейти к проверке"
+
+msgid "Use a View to display the order summary"
+msgstr "Использовать представление для вывода информации о заказе"
+
+msgid "@entity added to <a href=\":url\">your cart</a>."
+msgstr "\"@entity\" добавлен в <a href=\":url\">корзину</a>."
+
+msgid "Product variation attributes"
+msgstr "Атрибуты вариации товара"
+
+msgid "Product variation title"
+msgstr "Заголовок вариации товара"
+
+msgid "Label: \"@text\" (@visible)"
+msgstr "Метка: \"@text\" (@visible)"
+
+msgid "Hidden if there's only one product variation."
+msgstr "Скрыть если доступна только одна вариация товара."
+
+msgid "Hide if there's only one product variation"
+msgstr "Скрыть если доступна только одна вариация товара"
+
+msgid "Decimal quantities not allowed"
+msgstr "Дробные значения запрещены"
+
+msgid "Allow decimal quantities"
+msgstr "Разрешить дробные значения"
+
+msgid "Order"
+msgstr "Заказ"
+
+msgid "The price"
+msgstr "Цена"
+
+msgid "The list price."
+msgstr "Старая цена"
+
+msgid "The variation author."
+msgstr "Автор вариации."
+
+msgid "The variation title."
+msgstr "Заголовок вариации."
+
+msgid "The parent product."
+msgstr "Родительский товар."
+
+msgid "The product author."
+msgstr "Автор товара."
+
+msgid "The time when the variation was last edited."
+msgstr "Время последнего изменения вариации."
+
+msgid "The time when the variation was created."
+msgstr "Время создания вариации."
+
+msgid "The product variations."
+msgstr "Вариации товара."
+
+msgid "product variations"
+msgstr "вариации товара"
+
+msgid "The time when the product was last edited."
+msgstr "Время последнего изменения товара."
+
+msgid "The product stores."
+msgstr "Магазины товара."
+
+msgid "The time when the product was created."
+msgstr "Время создания товара."
+
+msgid "Carts"
+msgstr "Корзины"
+
+msgid "Checkout Order Summary"
+msgstr "Обзор заказа в чекауте"
+
+msgid "User orders"
+msgstr "Заказы пользователя"
+
+msgid "Fraction digits"
+msgstr "Цифр после запятой"
+
+msgid "Saved the %label currency."
+msgstr "Валюта \"%label\" сохранена."
+
+msgid "Saved the %label order item type."
+msgstr "Тип позиции заказа \"%label\" сохранён."
+
+msgid "Saved the %label checkout flow."
+msgstr "Процесс оформления \"%label\" сохранён."
+
+msgid "Saved the %label store."
+msgstr "Магазин \"%label\" сохранён."
+
+msgid "Supported billing countries"
+msgstr "Разрешённые страны для оплаты"
+
+msgid "Store email notifications are sent from this address."
+msgstr "Уведомления от магазина будут присылаться с этого e-mail."
+
+msgid "Used when determining promotion and tax availability."
+msgstr "Используется при рассчёте скидок и налогов."
+
+msgid "The alternative URL for this store. Use a relative path. For example, \"/my-store\"."
+msgstr "Альтернативный URL для этого магазина. Используйте относительный путь, например \"/my-store\"."
+
+msgid "Delete store"
+msgstr "Удалить магазин"
+
+msgid "Inject product variation fields into the rendered product."
+msgstr "Вставлять поля вариации в вывод товара."
+
+msgid "Publish new products of this type by default."
+msgstr "По умолчанию публиковать новые товары этого типа."
+
+msgid "Save and add variations"
+msgstr "Сохранить и добавить вариацию"
+
+msgid "The unique, machine-readable identifier for a variation."
+msgstr "Уникальный, машиночитаемый идентификатор вариации."
+
+msgid "Do not strip trailing zeroes after the decimal point."
+msgstr "Не удалять нули после запятой."
+
+msgid "Strip trailing zeroes after the decimal point."
+msgstr "Удалять нули после запятой."
+
+msgid "Calculated"
+msgstr "Вычисленный"
+
+msgid "Order item table"
+msgstr "Таблица позиций заказа"
+
+msgid "Are you sure you want to remove %label?"
+msgstr "Вы действительно хотите удалить \"%label\"?"
+
+msgid "Default labels are used."
+msgstr "Используются оригинальные названия полей."
+
+msgid "New @label can be added."
+msgstr "Можно добавлять новые \"@label\""
+
+msgid "Existing @label can not be referenced."
+msgstr "Нельзя ссылаться на существующие \"@label\""
+
+msgid "@label can not be duplicated."
+msgstr "Нельзя дублировать \"@label\""
+
+msgid "Add variation"
+msgstr "Добавить вариацию"
+
+msgid "%product variations"
+msgstr "Вариации товара \"%product\""
+
+msgid "The alternative URL for this product. Use a relative path. For example, \"/my-product\"."
+msgstr "Синоним адреса товара. Используйте относительный путь, например \"/my-product\"."
+
+msgid "Saved the %label variation."
+msgstr "Вариация \"%label\" сохранена."
+
+msgid "The product type %label has been successfully saved."
+msgstr "Тип товара \"%label\" успешно сохранён."
+
+msgid "The product %label has been successfully saved."
+msgstr "Товар \"%label\" успешно сохранён."
+
+msgid "The order %label has been successfully saved."
+msgstr "Заказ \"%label\" успешно сохранён."
+
+msgid "Enable attribute value translation"
+msgstr "Включить возможность перевода значений атрибута"
+
+msgid "Controls how the attribute is displayed on the add to cart form."
+msgstr "Управляет отображением атрибута в форме \"Добавить в корзину\"."
+
+msgid "Created the %label product attribute."
+msgstr "Атрибут товара \"%label\" успешно создан."
+
+msgid "Updated the %label product attribute."
+msgstr "Атрибут товара \"%label\" успешно обновлён."
+
+msgid "The attribute value name."
+msgstr "Название значения атрибута."
+
+msgctxt "Commerce"
+msgid "store"
+msgstr "Магазин"
+
+msgctxt "Commerce"
+msgid "Order types"
+msgstr "Типы заказов"
+
+msgctxt "Commerce"
+msgid "Order type"
+msgstr "Тип заказа"
+
+msgctxt "Commerce"
+msgid "Order"
+msgstr "Заказ"
+
+msgctxt "Commerce"
+msgid "Store type"
+msgstr "Тип магазина"
+
+msgctxt "Commerce"
+msgid "Store"
+msgstr "Магазин"
+
+msgctxt "Address label"
+msgid "State"
+msgstr "Государство"
+
+msgctxt "State"
+msgid "Address label"
+msgstr "Штат"
+
+msgctxt "Suburb"
+msgid "Address label"
+msgstr "Район"
+
+msgctxt "Address label"
+msgid "Address line 1"
+msgstr "Адрес"
+
+msgctxt "Address label"
+msgid "Address line 2"
+msgstr "Номер квартиры"

@@ -1,0 +1,109 @@
+<?php
+
+use Drupal\Component\Utility\OpCodeCache;
+use Drupal\Core\Site\Settings;
+
+/**
+ * Implements hook_install_tasks().
+ */
+function starter_install_tasks(&$install_state) {
+  return [
+    'starter_override_config' => [],
+  ];
+}
+
+/**
+ * Override config.
+ */
+function starter_override_config() {
+  $config_factory = \Drupal::configFactory();
+
+  $config = [
+    'system.file' => [
+      'path.temporary' => 'sites/default/files/temp',
+      'temporary_maximum_age' => 86400,
+    ],
+    'file.settings' => [
+      'make_unused_managed_files_temporary' => TRUE,
+    ],
+    'pathauto.settings' => [
+      'enabled_entity_types' => [],
+      'reduce_ascii' => TRUE,
+      'ignore_words' => '',
+    ],
+    'contact.settings' => [
+      'user_default_enabled' => FALSE,
+    ],
+    'views.settings' => [
+      'ui.show.advanced_column' => TRUE,
+      'ui.show.master_display' => TRUE,
+      'ui.show.performance_statistics' => TRUE,
+      'ui.show.sql_query.enabled' => TRUE,
+      'ui.show.display_embed' => TRUE,
+    ],
+    'views.view.block_content' => [
+      'display.default.display_options.filters' => [],
+    ],
+    'views.view.watchdog' => [
+      'display.default.display_options.pager.type' => 'full',
+    ],
+    'views.view.content_recent' => [
+      'status' => FALSE,
+    ],
+    'views.view.frontpage' => [
+      'status' => FALSE,
+    ],
+    'views.view.taxonomy_term' => [
+      'status' => FALSE,
+    ],
+    'views.view.who_s_new' => [
+      'status' => FALSE,
+    ],
+    'views.view.who_s_online' => [
+      'status' => FALSE,
+    ],
+    'devel.settings' => [
+      'devel_dumper' => 'kint',
+    ],
+    'update.settings' => [
+      'check.interval_days' => 7,
+      'notification.threshold' => 'security',
+      'emails' => [],
+    ],
+    'node.settings' => [
+      'use_admin_theme' => TRUE,
+    ],
+    'captcha.settings' => [
+      'add_captcha_description' => FALSE,
+    ],
+    'captcha.captcha_point.user_pass' => [
+      'status' => TRUE,
+    ],
+    'captcha.captcha_point.user_register_form' => [
+      'status' => TRUE,
+    ],
+    'backup_migrate.backup_migrate_schedule.daily_schedule' => [
+      'enabled' => TRUE,
+      'keep' => 30,
+      'period' => 86400,
+    ],
+  ];
+
+  foreach ($config as $config_group => $config_items) {
+    foreach ($config_items as $config_key => $config_value) {
+      $config_factory->getEditable($config_group)->set($config_key, $config_value)->save(TRUE);
+    }
+  }
+
+  $delete_config = [
+    'image.style.large',
+    'image.style.medium',
+    'image.style.thumbnail',
+    'core.date_format.long',
+    'core.date_format.medium',
+  ];
+
+  foreach ($delete_config as $name) {
+    $config_factory->getEditable($name)->delete();
+  }
+}
