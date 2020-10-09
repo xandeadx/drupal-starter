@@ -52,4 +52,5 @@ install:
   - custom_main:custom_main
   - custom_seo:custom_seo
 themes:
+  - xtheme
   - xseven
