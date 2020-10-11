@@ -38,7 +38,7 @@ assert_options(ASSERT_ACTIVE, TRUE);
 /**
  * Enable local development services.
  */
-$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
+$settings['container_yamls'][] = DRUPAL_ROOT . '/' . $site_path . '/development.services.yml';
 
 /**
  * Disable CSS and JS aggregation.
@@ -147,14 +147,3 @@ $settings['skip_permissions_hardening'] = TRUE;
  * the language or field module.
  */
 # $settings['config_exclude_modules'] = ['devel', 'stage_file_proxy'];
-
-$databases['default']['default'] = array (
-  'database' => '',
-  'username' => '',
-  'password' => '',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
