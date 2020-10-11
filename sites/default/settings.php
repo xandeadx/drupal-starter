@@ -777,7 +777,6 @@ $config['system.logging']['error_level'] = 'all';
  *
  * Keep this code block at the end of this file to take full effect.
  */
-#
 if (file_exists($local_settings_file = "$app_root/$site_path/settings.local.php")) {
   include $local_settings_file;
 }

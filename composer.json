@@ -58,7 +58,7 @@
                 "drupal/core"
             ],
             "file-mapping": {
-                "[web-root]/sites/development.services.yml": {
+                "[web-root]/sites/default/development.services.yml": {
                     "path": "core/assets/scaffold/files/development.services.yml",
                     "overwrite": false
                 },
@@ -77,7 +77,11 @@
                 "[web-root]/example.gitignore": false,
                 "[web-root]/INSTALL.txt": false,
                 "[web-root]/README.txt": false,
-                "[web-root]/web.config": false
+                "[web-root]/web.config": false,
+                "[web-root]/sites/example.settings.local.php": false,
+                "[web-root]/sites/README.txt": false,
+                "[web-root]/sites/default/default.services.yml": false,
+                "[web-root]/sites/default/default.settings.php": false
             }
         },
         "installer-paths": {
