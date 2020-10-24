@@ -15,7 +15,6 @@
         "drupal/core-recommended": "^9",
         "drupal/core-vendor-hardening": "^9",
         "drush/drush": "*",
-        "zaporylie/composer-drupal-optimizations": "*",
 
         "drupal/admin_toolbar": "*",
         "drupal/backup_migrate": "5.0.x-dev",
