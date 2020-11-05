@@ -28,6 +28,7 @@
         "drupal/module_filter": "3.x-dev",
         "drupal/pathauto": "*",
         "drupal/swiftmailer": "*",
+        "drupal/token": "*",
         "drupal/transliterate_filenames": "*",
         "drupal/twig_tweak": "*",
         "drupal/xmlsitemap": "*",
