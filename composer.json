@@ -16,7 +16,7 @@
         "drush/drush": "*",
 
         "drupal/admin_toolbar": "*",
-        "drupal/backup_migrate": "5.0.x-dev",
+        "drupal/backup_migrate": "^5",
         "drupal/captcha": "*",
         "drupal/colorbox": "*",
         "drupal/devel": "*",
