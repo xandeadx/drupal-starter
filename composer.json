@@ -20,6 +20,7 @@
         "drupal/captcha": "*",
         "drupal/colorbox": "*",
         "drupal/devel": "*",
+        "kint-php/kint": "*",
         "drupal/devel_php": "*",
         "drupal/editor_file": "*",
         "drupal/image_resize_filter": "*",
