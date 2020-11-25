@@ -1,13 +1,12 @@
-uuid: 745c106c-5bce-4074-a34e-09e3285759b1
 langcode: en
 status: true
 dependencies:
   module:
     - user
-id: user_admin_people
-label: People
+id: admin_user
+label: Administer users
 module: user
-description: 'Find and manage people interacting with your site.'
+description: ''
 tag: default
 base_table: users_field_data
 base_field: uid
