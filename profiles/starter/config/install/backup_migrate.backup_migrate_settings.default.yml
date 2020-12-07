@@ -11,7 +11,7 @@ config:
   compressor:
     compression: gzip
   utils:
-    site_offline: 1
+    site_offline: 0
   metadata:
     description: ''
   db_exclude:
