@@ -652,7 +652,7 @@ $settings['session_write_interval'] = 600;
 /**
  * Load services definition file.
  */
-$settings['container_yamls'][] = DRUPAL_ROOT . '/' . $site_path . '/services.yml';
+$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/services.yml';
 
 /**
  * Override the default service container class.
@@ -722,6 +722,8 @@ $settings['container_yamls'][] = DRUPAL_ROOT . '/' . $site_path . '/services.yml
 $settings['file_scan_ignore_directories'] = [
   'node_modules',
   'bower_components',
+  '.git',
+  '.idea',
 ];
 
 /**
@@ -777,6 +779,4 @@ $config['system.logging']['error_level'] = 'all';
  *
  * Keep this code block at the end of this file to take full effect.
  */
-if (file_exists($local_settings_file = "$app_root/$site_path/settings.local.php")) {
-  include $local_settings_file;
-}
+include DRUPAL_ROOT . '/sites/settings.dev.php';

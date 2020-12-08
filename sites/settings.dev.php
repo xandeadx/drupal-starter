@@ -38,7 +38,7 @@ assert_options(ASSERT_ACTIVE, TRUE);
 /**
  * Enable local development services.
  */
-$settings['container_yamls'][] = DRUPAL_ROOT . '/' . $site_path . '/development.services.yml';
+$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/services.dev.yml';
 
 /**
  * Disable CSS and JS aggregation.
