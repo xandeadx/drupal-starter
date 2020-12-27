@@ -33,6 +33,7 @@
         "drupal/transliterate_filenames": "*",
         "drupal/twig_tweak": "*",
         "drupal/xmlsitemap": "*",
+        "chi-teck/config_schema_checker": "*",
 
         "drupal/druhels": "2.x-dev",
         "drupal/function_filter": "2.x-dev",

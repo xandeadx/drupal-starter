@@ -32,6 +32,7 @@ install:
   - backup_migrate:backup_migrate
   - captcha:captcha
   - colorbox:colorbox
+  - config_schema_checker:config_schema_checker
   - devel:devel
   - devel_php:devel_php
   - editor_file:editor_file
