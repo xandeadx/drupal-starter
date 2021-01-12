@@ -2,7 +2,7 @@ parameters:
   twig.config:
     debug: false
     auto_reload: true
-  http.response.debug_cacheability_headers: false
+  http.response.debug_cacheability_headers: true
 services:
   cache.backend.null:
     class: Drupal\Core\Cache\NullBackendFactory
