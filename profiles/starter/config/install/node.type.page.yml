@@ -1,10 +1,20 @@
 langcode: en
 status: true
-dependencies: {  }
-name: 'Page'
+dependencies:
+  module:
+    - improvements
+    - menu_ui
+third_party_settings:
+  improvements:
+    hide_revision_group: true
+    move_status_to_vertical_tab: true
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Page
 type: page
 description: ''
 help: ''
 new_revision: false
-preview_mode: 1
+preview_mode: 0
 display_submitted: false

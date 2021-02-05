@@ -27,6 +27,7 @@
         "drupal/mailsystem": "*",
         "drupal/metatag": "*",
         "drupal/module_filter": "3.x-dev",
+        "drupal/paragraphs": "*",
         "drupal/pathauto": "*",
         "drupal/swiftmailer": "*",
         "drupal/token": "*",

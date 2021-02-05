@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_block.field_string
+    - field.field.paragraph.text_block.field_text
+    - paragraphs.paragraphs_type.text_block
+  module:
+    - improvements
+    - text
+id: paragraph.text_block.default
+targetEntityType: paragraph
+bundle: text_block
+mode: default
+content:
+  field_string:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_text:
+    weight: 1
+    settings:
+      rows: 9
+      placeholder: ''
+      summary_rows: 3
+      show_summary: false
+    third_party_settings:
+      improvements:
+        max_length: null
+        dynamic_height: false
+        disable_editor: false
+        hide_format_select: false
+    type: text_textarea_with_summary
+    region: content
+hidden:
+  created: true
+  status: true

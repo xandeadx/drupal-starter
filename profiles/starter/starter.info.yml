@@ -39,6 +39,7 @@ install:
   - image_resize_filter:image_resize_filter
   - metatag:metatag
   - module_filter:module_filter
+  - paragraphs:paragraphs
   - pathauto:pathauto
   - swiftmailer:swiftmailer
   - transliterate_filenames:transliterate_filenames

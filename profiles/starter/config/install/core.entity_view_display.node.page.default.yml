@@ -2,23 +2,33 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
+    - field.field.node.page.field_body
     - field.field.node.page.field_global_metatags
     - node.type.page
   module:
-    - text
+    - entity_reference_revisions
     - user
 id: node.page.default
 targetEntityType: node
 bundle: page
 mode: default
 content:
-  body:
-    type: text_default
-    weight: 0
-    region: content
+  field_body:
+    type: entity_reference_revisions_entity_view
+    weight: 1
     label: above
-    settings: {  }
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
 hidden:
   field_global_metatags: true

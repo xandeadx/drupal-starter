@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body
+    - node.type.page
+    - paragraphs.paragraphs_type.slide
+  module:
+    - entity_reference_revisions
+id: node.page.field_body
+field_name: field_body
+entity_type: node
+bundle: page
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles:
+      slide: slide
+    target_bundles_drag_drop:
+      slide:
+        enabled: true
+        weight: -6
+      slideshow:
+        weight: -7
+        enabled: false
+      text:
+        weight: -9
+        enabled: false
+      text_block:
+        weight: -8
+        enabled: false
+field_type: entity_reference_revisions

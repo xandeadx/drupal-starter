@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slideshow.field_machine_name
+    - field.field.paragraph.slideshow.field_paragraphs
+    - field.field.paragraph.slideshow.field_string
+    - paragraphs.paragraphs_type.slideshow
+  module:
+    - entity_reference_revisions
+id: paragraph.slideshow.default
+targetEntityType: paragraph
+bundle: slideshow
+mode: default
+content:
+  field_paragraphs:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_machine_name: true
+  field_string: true

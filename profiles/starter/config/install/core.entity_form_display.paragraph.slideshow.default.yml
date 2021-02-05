@@ -1,0 +1,58 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slideshow.field_machine_name
+    - field.field.paragraph.slideshow.field_paragraphs
+    - field.field.paragraph.slideshow.field_string
+    - paragraphs.paragraphs_type.slideshow
+  module:
+    - improvements
+    - paragraphs
+id: paragraph.slideshow.default
+targetEntityType: paragraph
+bundle: slideshow
+mode: default
+content:
+  field_machine_name:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      improvements:
+        max_length: null
+    type: string_textfield
+    region: content
+  field_paragraphs:
+    type: paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: all
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: slide
+      features:
+        add_above: '0'
+        collapse_edit_all: '0'
+        duplicate: '0'
+    third_party_settings: {  }
+    region: content
+  field_string:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      improvements:
+        max_length: null
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

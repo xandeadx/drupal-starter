@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text.field_text
+    - paragraphs.paragraphs_type.text
+  module:
+    - improvements
+    - text
+id: paragraph.text.default
+targetEntityType: paragraph
+bundle: text
+mode: default
+content:
+  field_text:
+    weight: 0
+    settings:
+      rows: 10
+      placeholder: ''
+      summary_rows: 3
+      show_summary: false
+    third_party_settings:
+      improvements:
+        max_length: null
+        dynamic_height: true
+        disable_editor: false
+        hide_format_select: false
+    type: text_textarea_with_summary
+    region: content
+hidden:
+  created: true
+  status: true
