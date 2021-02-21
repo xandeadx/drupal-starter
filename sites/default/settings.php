@@ -759,6 +759,11 @@ $settings['entity_update_backup'] = FALSE;
 $settings['migrate_node_migrate_type_classic'] = FALSE;
 
 /**
+ * Show build time.
+ */
+$settings['show_build_time'] = TRUE;
+
+/**
  * Show all error messages, with backtrace information.
  *
  * In case the error level could not be fetched from the database, as for
