@@ -9,6 +9,7 @@
         "url": "https://packages.drupal.org/8"
     }],
     "require": {
+        "php": ">=7.4",
         "composer/installers": "*",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-recommended": "^9",
