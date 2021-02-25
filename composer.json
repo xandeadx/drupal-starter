@@ -15,6 +15,7 @@
         "drupal/core-recommended": "^9",
         "drupal/core-vendor-hardening": "^9",
         "drush/drush": "*",
+        "cweagans/composer-patches": "*",
 
         "drupal/admin_toolbar": "*",
         "drupal/backup_migrate": "^5",
@@ -94,7 +95,8 @@
             "modules/sandbox/{$name}": ["type:drupal-sandbox-module"],
             "themes/{$name}": ["type:drupal-theme", "type:drupal-custom-theme"],
             "drush/Commands/{$name}": ["type:drupal-drush"]
-        }
+        },
+        "patches": {}
     },
     "scripts": {
         "post-create-project-cmd": [
