@@ -1,10 +1,7 @@
-theme: default
+theme: xtheme
 defaults:
   sender: swiftmailer
   formatter: swiftmailer
 modules:
-  swiftmailer:
-    none:
-      formatter: swiftmailer
-      sender: swiftmailer
+  swiftmailer: {  }
 langcode: en
