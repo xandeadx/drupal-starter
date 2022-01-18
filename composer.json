@@ -10,25 +10,23 @@
     }],
     "require": {
         "php": ">=7.4",
-        "composer/installers": "*",
+        
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-recommended": "^9",
         "drupal/core-vendor-hardening": "^9",
-        "drush/drush": "*",
-        "cweagans/composer-patches": "*",
 
         "drupal/admin_toolbar": "*",
-        "drupal/backup_migrate": "^5",
+        "drupal/backup_migrate": "*",
         "drupal/captcha": "*",
         "drupal/colorbox": "*",
         "drupal/devel": "*",
-        "kint-php/kint": "*",
         "drupal/devel_php": "*",
         "drupal/editor_file": "*",
+        "drupal/extra_field_plus": "*",
         "drupal/image_resize_filter": "*",
         "drupal/mailsystem": "*",
         "drupal/metatag": "*",
-        "drupal/module_filter": "3.x-dev",
+        "drupal/module_filter": "*",
         "drupal/paragraphs": "*",
         "drupal/pathauto": "*",
         "drupal/swiftmailer": "*",
@@ -36,12 +34,18 @@
         "drupal/transliterate_filenames": "*",
         "drupal/twig_tweak": "*",
         "drupal/xmlsitemap": "*",
-        "chi-teck/config_schema_checker": "*",
 
         "drupal/druhels": "2.x-dev",
         "drupal/function_filter": "2.x-dev",
         "drupal/improvements": "2.x-dev",
-        "drupal/xseven": "2.x-dev"
+        "drupal/xseven": "2.x-dev",
+        
+        "chi-teck/config_schema_checker": "*",
+        "drush/drush": "*",
+        "kint-php/kint": "*",
+        
+        "composer/installers": "*",
+        "cweagans/composer-patches": "*"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -51,7 +55,13 @@
     "config": {
         "sort-packages": true,
         "optimize-autoloader": true,
-        "preferred-install": "dist"
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-vendor-hardening": true
+        }
     },
     "extra": {
         "drupal-scaffold": {
