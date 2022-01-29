@@ -13,7 +13,10 @@ filters:
     provider: image_resize_filter
     status: true
     weight: 1
-    settings: {  }
+    settings:
+      image_locations:
+        local: 1
+        remote: 0
   filter_image_link_to_source:
     id: filter_image_link_to_source
     provider: image_resize_filter
