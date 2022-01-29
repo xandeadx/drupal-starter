@@ -25,6 +25,7 @@
         "drupal/extra_field_plus": "*",
         "drupal/image_resize_filter": "*",
         "drupal/mailsystem": "*",
+        "drupal/menu_bulk_add_items": "*",
         "drupal/metatag": "*",
         "drupal/module_filter": "*",
         "drupal/paragraphs": "*",

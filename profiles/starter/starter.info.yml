@@ -1,7 +1,7 @@
 name: Starter
 type: profile
 description: Drupal starter profile
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9 || ^10
 install:
   # Core
   - drupal:automated_cron
@@ -49,6 +49,7 @@ install:
   - druhels:druhels
   - function_filter:function_filter
   - improvements:improvements
+  - menu_bulk_add_items:menu_bulk_add_items
   # Custom
   - custom_admin:custom_admin
   - custom_main:custom_main
