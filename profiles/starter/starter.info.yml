@@ -51,6 +51,7 @@ install:
   - function_filter:function_filter
   - improvements:improvements
   - menu_bulk_add_items:menu_bulk_add_items
+  - textarea_file_drag:textarea_file_drag
   # Custom
   - custom_admin:custom_admin
   - custom_main:custom_main

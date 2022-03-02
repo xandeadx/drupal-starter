@@ -26,7 +26,6 @@
         "drupal/extra_field_plus": "*",
         "drupal/image_resize_filter": "*",
         "drupal/mailsystem": "*",
-        "drupal/menu_bulk_add_items": "*",
         "drupal/metatag": "*",
         "drupal/module_filter": "*",
         "drupal/paragraphs": "*",
@@ -40,6 +39,8 @@
         "drupal/druhels": "2.x-dev",
         "drupal/function_filter": "2.x-dev",
         "drupal/improvements": "2.x-dev",
+        "drupal/menu_bulk_add_items": "1.x-dev",
+        "drupal/textarea_file_drag": "1.x-dev",
         "drupal/xseven": "2.x-dev",
         
         "chi-teck/config_schema_checker": "*",

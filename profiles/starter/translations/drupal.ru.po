@@ -920,6 +920,9 @@ msgstr "@type \"%title\" был удалён."
 msgid "The @entity-type %label has been deleted."
 msgstr "@entity-type \"%label\" был удалён."
 
+msgid "Contact messages"
+msgstr "Контактные сообщения"
+
 msgid "Module %name has been enabled."
 msgid_plural "@count modules have been enabled: %names."
 msgstr[0] "Модуль \"%name\" установлен."
