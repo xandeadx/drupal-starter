@@ -50,6 +50,13 @@
         "composer/installers": "*",
         "cweagans/composer-patches": "*"
     },
+    "require-dev": {
+        "codeception/codeception": "*",
+        "codeception/module-asserts": "*",
+        "codeception/module-db": "*",
+        "codeception/module-webdriver": "*",
+        "xandeadx/codeception-module-drupalhelper": "*"
+    },
     "conflict": {
         "drupal/drupal": "*"
     },

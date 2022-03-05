@@ -316,6 +316,22 @@ $settings['hash_salt'] = '';
 $settings['update_free_access'] = FALSE;
 
 /**
+ * Fallback to HTTP for Update Manager and for fetching security advisories.
+ *
+ * If your site fails to connect to updates.drupal.org over HTTPS (either when
+ * fetching data on available updates, or when fetching the feed of critical
+ * security announcements), you may uncomment this setting and set it to TRUE to
+ * allow an insecure fallback to HTTP. Note that doing so will open your site up
+ * to a potential man-in-the-middle attack. You should instead attempt to
+ * resolve the issues before enabling this option.
+ * @see https://www.drupal.org/docs/system-requirements/php-requirements#openssl
+ * @see https://en.wikipedia.org/wiki/Man-in-the-middle_attack
+ * @see \Drupal\update\UpdateFetcher
+ * @see \Drupal\system\SecurityAdvisories\SecurityAdvisoriesFetcher
+ */
+# $settings['update_fetch_with_http_fallback'] = TRUE;
+
+/**
  * External access proxy settings:
  *
  * If your site must access the Internet via a web proxy then you can enter the
@@ -598,6 +614,21 @@ $settings['session_write_interval'] = 600;
 # ini_set('pcre.recursion_limit', 200000);
 
 /**
+ * Add Permissions-Policy header to disable Google FLoC.
+ *
+ * By default, Drupal sends the 'Permissions-Policy: interest-cohort=()' header
+ * to disable Google's Federated Learning of Cohorts feature, introduced in
+ * Chrome 89.
+ *
+ * See https://en.wikipedia.org/wiki/Federated_Learning_of_Cohorts for more
+ * information about FLoC.
+ *
+ * If you don't wish to disable FLoC in Chrome, you can set this value
+ * to FALSE.
+ */
+# $settings['block_interest_cohort'] = TRUE;
+
+/**
  * Configuration overrides.
  *
  * To globally override specific configuration values for this site,
@@ -720,10 +751,10 @@ $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/services.yml';
  * @see \Drupal\Core\Extension\ExtensionDiscovery::scanDirectory()
  */
 $settings['file_scan_ignore_directories'] = [
-  'node_modules',
-  'bower_components',
   '.git',
   '.idea',
+  'node_modules',
+  'bower_components',
 ];
 
 /**
@@ -759,14 +790,19 @@ $settings['entity_update_backup'] = FALSE;
 $settings['migrate_node_migrate_type_classic'] = FALSE;
 
 /**
- * Show build time.
- */
-$settings['show_build_time'] = TRUE;
-
-/**
  * Show all error messages, with backtrace information.
  *
  * In case the error level could not be fetched from the database, as for
  * example the database connection failed, we rely only on this value.
  */
 $config['system.logging']['error_level'] = 'all';
+
+/**
+ * Show build time.
+ */
+$settings['show_build_time'] = FALSE;
+
+/**
+ * Cache bind max rows.
+ */
+$settings['database_cache_max_rows']['default'] = 100000;

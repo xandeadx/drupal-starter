@@ -1,0 +1,68 @@
+actor: AcceptanceTester
+
+modules:
+    enabled:
+        - WebDriver:
+            url: http://example.test/
+            window_size: maximize
+            port: 9515
+            browser: chrome
+            capabilities:
+                'goog:chromeOptions':
+                    args:
+                        - --force-device-scale-factor=1
+                        - incognito
+                    excludeSwitches:
+                        - enable-automation
+
+        - AcceptanceHelper:
+            page_title_selector: .page-title
+            breadcrumb_item_selector: .breadcrumb__item
+            sticky_header_height: 0
+            devices_size:
+                tablet:
+                    width: 900
+                     height: 1000
+                mobile:
+                    width: 400
+                    height: 600
+
+        - DrupalHelper:
+            admin_username: admin
+            admin_password: qwerty
+            create_dump: true
+            exclude_data_tables:
+                - xmlsitemap
+            404_page_text: 'Запрашиваемая страница не найдена'
+
+        - Db:
+            dsn: mysql:host=localhost;dbname=example_test
+            user: mysql
+            password: mysql
+            dump: tests/_data/dump.sql
+            populate: true
+            cleanup: false
+            reconnect: false
+            waitlock: 0
+            populator: 'mysql --user=$user --password=$password --host=$host $dbname < $dump'
+
+        - Asserts: ~
+
+extensions:
+    enabled:
+        - Codeception\Extension\RunProcess:
+            - 'chromedriver --url-base=/wd/hub'
+        - Codeception\Extension\RunBefore:
+            - 'vendor\bin\codecept clean'
+            - 'rm -rf sites/test/files/public/*'
+            - 'rm -rf sites/test/files/temp/*'
+            - 'rm -rf sites/test/files/private/*'
+            -
+                - 'vendor\bin\drush cache-rebuild --uri=example.test'
+                - 'vendor\bin\drush pm-uninstall captcha ckeditor backup_migrate automated_cron --uri=example.test -y'
+                - 'vendor\bin\drush user-password admin qwerty --uri=example.test -y'
+
+step_decorators:
+    - Codeception\Step\ConditionalAssertion
+    - Codeception\Step\TryTo
+    - Codeception\Step\Retry
