@@ -31,11 +31,6 @@ class AcceptanceTester extends \Codeception\Actor {
 
     $this->maximizeWindow();
 
-    $this->createTestCategories();
-    $this->createTestBrands();
-    $this->createTestEavAttributes();
-    $this->createTestProducts();
-
     // Delete new nodes
     $new_nodes_ids = $this->sqlQuery("
       SELECT n.nid
@@ -44,36 +39,6 @@ class AcceptanceTester extends \Codeception\Actor {
     ")->fetchAll(PDO::FETCH_COLUMN);
     if ($new_nodes_ids) {
       $this->deleteNodes($new_nodes_ids);
-    }
-
-    // Delete all flagging entities
-    if ($this->grabNumRecords('flagging') > 0) {
-      $this->deleteEntities('flagging');
-    }
-
-    // Delete all products
-    if ($this->grabNumRecords('commerce_product') > count($this->products)) {
-      $this->deleteEntities('commerce_product', null, array_column($this->products, 'id'));
-    }
-
-    // Delete all products variations
-    if ($this->grabNumRecords('commerce_product_variation') > count($this->products)) {
-      $this->deleteEntities('commerce_product_variation', null, array_column($this->products, 'variation_id'));
-    }
-
-    // Delete all orders
-    if ($this->grabNumRecords('commerce_order') > 0) {
-      $this->deleteEntities('commerce_order');
-    }
-
-    // Delete all comments
-    if ($this->grabNumRecords('comment') > 0) {
-      $this->deleteEntities('comment');
-    }
-
-    // Delete all eav attributes
-    if ($this->grabNumRecords('eav_attribute') > count($this->attributes)) {
-      $this->deleteEntities('eav_attribute', null, array_column($this->attributes, 'id'));
     }
 
     // Delete new menu items
@@ -97,12 +62,6 @@ class AcceptanceTester extends \Codeception\Actor {
     if ($new_files_ids) {
       $this->deleteEntities('file', $new_files_ids);
     }
-
-    // Clear path alias preloads
-    /*$this->sqlQuery("
-      DELETE FROM cache_data
-      WHERE cid LIKE 'preload-paths:%'
-    ");*/
 
     // Clear watchdog
     $this->clearWatchdog();

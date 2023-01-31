@@ -1,9 +1,9 @@
+namespace: Tests
+support_namespace: Support
+actor_suffix: Tester
 paths:
     tests: tests
+    support: tests/Support
+    data: tests/Support/Data
     output: tests/_output
-    data: tests/_data
-    support: tests/_support
     envs: tests/_envs
-settings:
-    shuffle: false
-    lint: true

@@ -72,6 +72,7 @@ extensions:
                 - 'vendor\bin\drush user-password admin qwerty --uri=example.test -y'
                 - 'vendor\bin\drush search-api:clear --uri=example.test'
                 - 'vendor\bin\drush search-api:index --uri=example.test'
+        - Codeception\Extension\RunFailed: ~
 
 step_decorators:
     - Codeception\Step\ConditionalAssertion

@@ -29,12 +29,15 @@
         "drupal/module_filter": "*",
         "drupal/paragraphs": "*",
         "drupal/pathauto": "*",
+        "drupal/seven": "*",
+        "drupal/symfony_mailer": "*",
         "drupal/token": "*",
         "drupal/transliterate_filenames": "*",
         "drupal/twig_tweak": "*",
         "drupal/xmlsitemap": "*",
 
         "drupal/druhels": "2.x-dev",
+        "drupal/flexi_gallery": "2.x-dev",
         "drupal/function_filter": "2.x-dev",
         "drupal/improvements": "2.x-dev",
         "drupal/menu_bulk_add_items": "1.x-dev",
@@ -118,12 +121,17 @@
     },
     "scripts": {
         "post-create-project-cmd": [
-          "composer remove drupal/core-composer-scaffold --update-no-dev --no-scripts",
-          "wget -O composer.phar https://getcomposer.org/composer-stable.phar",
-          "wget -O adminer.php https://www.adminer.org/latest.php",
-          "git clone --branch 2.x https://git.drupalcode.org/project/xbase.git themes/xbase",
-          "cp --recursive --force themes/xbase/xtheme themes/xtheme",
-          "sed -i 's/starter-theme/theme/g' themes/xtheme/xtheme.info.yml"
+            "composer remove drupal/core-composer-scaffold --update-no-dev --no-scripts",
+            "wget -O composer.phar https://getcomposer.org/composer-stable.phar",
+            "wget -O adminer.php https://www.adminer.org/latest.php",
+            "git clone --branch 2.x https://git.drupalcode.org/project/xbase.git themes/xbase",
+            "cp --recursive --force themes/xbase/xtheme themes/xtheme",
+            "sed -i 's/starter-theme/theme/g' themes/xtheme/xtheme.info.yml"
         ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     }
 }
