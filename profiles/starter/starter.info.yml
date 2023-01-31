@@ -1,13 +1,13 @@
 name: Starter
 type: profile
 description: Drupal starter profile
-core_version_requirement: ^9 || ^10
+core_version_requirement: ^10
 install:
   # Core
   - drupal:automated_cron
   - drupal:block
   - drupal:block_content
-  - drupal:ckeditor
+  - drupal:ckeditor5
   - drupal:config
   - drupal:contact
   - drupal:contextual
@@ -32,7 +32,6 @@ install:
   - backup_migrate:backup_migrate
   - captcha:captcha
   - colorbox:colorbox
-  - config_schema_checker:config_schema_checker
   - contact_storage:contact_storage
   - devel:devel
   - devel_php:devel_php
@@ -42,7 +41,6 @@ install:
   - module_filter:module_filter
   - paragraphs:paragraphs
   - pathauto:pathauto
-  - swiftmailer:swiftmailer
   - transliterate_filenames:transliterate_filenames
   - twig_tweak:twig_tweak
   - xmlsitemap:xmlsitemap

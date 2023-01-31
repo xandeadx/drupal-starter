@@ -9,11 +9,11 @@
         "url": "https://packages.drupal.org/8"
     }],
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.1",
         
-        "drupal/core-composer-scaffold": "^9",
-        "drupal/core-recommended": "^9",
-        "drupal/core-vendor-hardening": "^9",
+        "drupal/core-composer-scaffold": "^10",
+        "drupal/core-recommended": "^10",
+        "drupal/core-vendor-hardening": "^10",
 
         "drupal/admin_toolbar": "*",
         "drupal/backup_migrate": "*",
@@ -23,14 +23,12 @@
         "drupal/devel": "*",
         "drupal/devel_php": "*",
         "drupal/editor_file": "*",
-        "drupal/extra_field_plus": "*",
+        "drupal/extra_field": "*",
         "drupal/image_resize_filter": "*",
-        "drupal/mailsystem": "*",
         "drupal/metatag": "*",
         "drupal/module_filter": "*",
         "drupal/paragraphs": "*",
         "drupal/pathauto": "*",
-        "drupal/swiftmailer": "*",
         "drupal/token": "*",
         "drupal/transliterate_filenames": "*",
         "drupal/twig_tweak": "*",
@@ -43,7 +41,6 @@
         "drupal/textarea_file_drag": "1.x-dev",
         "drupal/xseven": "2.x-dev",
         
-        "chi-teck/config_schema_checker": "*",
         "drush/drush": "*",
         "kint-php/kint": "*",
         

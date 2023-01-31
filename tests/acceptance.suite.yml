@@ -18,11 +18,11 @@ modules:
         - AcceptanceHelper:
             page_title_selector: .page-title
             breadcrumb_item_selector: .breadcrumb__item
-            sticky_header_height: 0
+            sticky_header_height: 40
             devices_size:
                 tablet:
-                    width: 900
-                     height: 1000
+                    width: 1024
+                    height: 1000
                 mobile:
                     width: 400
                     height: 600
@@ -32,14 +32,23 @@ modules:
             admin_password: qwerty
             create_dump: true
             exclude_data_tables:
+                - cachetags
+                - cache_*
+                - captcha_sessions
+                - contact_message
+                - file_managed
+                - file_usage
+                - queue
+                - sessions
+                - watchdog
                 - xmlsitemap
-            404_page_text: 'Запрашиваемая страница не найдена'
+            404_page_source: '<!-- page not found -->'
 
         - Db:
             dsn: mysql:host=localhost;dbname=example_test
-            user: mysql
-            password: mysql
-            dump: tests/_data/dump.sql
+            user: root
+            password: root
+            dump: tests/Support/Data/dump.sql
             populate: true
             cleanup: false
             reconnect: false
@@ -59,8 +68,10 @@ extensions:
             - 'rm -rf sites/test/files/private/*'
             -
                 - 'vendor\bin\drush cache-rebuild --uri=example.test'
-                - 'vendor\bin\drush pm-uninstall captcha ckeditor backup_migrate automated_cron --uri=example.test -y'
+                - 'vendor\bin\drush pm-uninstall automated_cron captcha ckeditor5 backup_migrate --uri=example.test -y'
                 - 'vendor\bin\drush user-password admin qwerty --uri=example.test -y'
+                - 'vendor\bin\drush search-api:clear --uri=example.test'
+                - 'vendor\bin\drush search-api:index --uri=example.test'
 
 step_decorators:
     - Codeception\Step\ConditionalAssertion
