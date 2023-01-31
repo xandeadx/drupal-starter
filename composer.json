@@ -22,7 +22,6 @@
         "drupal/contact_storage": "*",
         "drupal/devel": "*",
         "drupal/devel_php": "*",
-        "drupal/editor_file": "*",
         "drupal/extra_field": "*",
         "drupal/image_resize_filter": "*",
         "drupal/metatag": "*",
