@@ -40,6 +40,8 @@ install:
   - module_filter:module_filter
   - paragraphs:paragraphs
   - pathauto:pathauto
+  - symfony_mailer:symfony_mailer
+  - symfony_mailer_bc:symfony_mailer_bc
   - transliterate_filenames:transliterate_filenames
   - twig_tweak:twig_tweak
   - xmlsitemap:xmlsitemap
