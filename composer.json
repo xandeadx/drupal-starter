@@ -1,6 +1,6 @@
 {
     "name": "xandeadx/drupal-starter",
-    "description": "xandeadx's Drupal starter project",
+    "description": "Drupal starter project",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "homepage": "https://github.com/xandeadx/drupal-starter",
@@ -50,10 +50,10 @@
         "cweagans/composer-patches": "*"
     },
     "require-dev": {
-        "codeception/codeception": "*",
-        "codeception/module-asserts": "*",
-        "codeception/module-db": "*",
-        "codeception/module-webdriver": "*",
+        "codeception/codeception": "^5",
+        "codeception/module-asserts": "^3",
+        "codeception/module-db": "^3",
+        "codeception/module-webdriver": "^3",
         "xandeadx/codeception-module-drupalhelper": "*"
     },
     "conflict": {
