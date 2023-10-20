@@ -1,0 +1,45 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraphs
+    - paragraphs.paragraphs_type.paragraphs
+    - paragraphs.paragraphs_type.slide
+  module:
+    - entity_reference_revisions
+id: paragraph.paragraphs.field_paragraphs
+field_name: field_paragraphs
+entity_type: paragraph
+bundle: paragraphs
+label: Paragraphs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      slide: slide
+    negate: 1
+    target_bundles_drag_drop:
+      paragraphs:
+        weight: -10
+        enabled: false
+      paragraphs_block:
+        weight: -9
+        enabled: false
+      slide:
+        weight: -8
+        enabled: true
+      slideshow:
+        weight: -11
+        enabled: false
+      text:
+        weight: -13
+        enabled: false
+      text_block:
+        weight: -12
+        enabled: false
+field_type: entity_reference_revisions

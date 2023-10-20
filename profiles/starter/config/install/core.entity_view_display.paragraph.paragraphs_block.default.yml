@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraphs_block.field_paragraphs
+    - field.field.paragraph.paragraphs_block.field_title
+    - paragraphs.paragraphs_type.paragraphs_block
+  module:
+    - entity_reference_revisions
+    - text
+id: paragraph.paragraphs_block.default
+targetEntityType: paragraph
+bundle: paragraphs_block
+mode: default
+content:
+  field_paragraphs:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

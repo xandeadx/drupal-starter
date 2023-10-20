@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.paragraphs_block
+  module:
+    - text
+id: paragraph.paragraphs_block.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: paragraphs_block
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text

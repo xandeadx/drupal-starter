@@ -2,14 +2,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.slideshow.field_paragraphs
-    - field.field.paragraph.slideshow.field_string
-    - paragraphs.paragraphs_type.slideshow
+    - field.field.paragraph.paragraphs.field_paragraphs
+    - paragraphs.paragraphs_type.paragraphs
   module:
     - entity_reference_revisions
-id: paragraph.slideshow.default
+id: paragraph.paragraphs.default
 targetEntityType: paragraph
-bundle: slideshow
+bundle: paragraphs
 mode: default
 content:
   field_paragraphs:
@@ -21,5 +20,4 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-hidden:
-  field_string: true
+hidden: {  }

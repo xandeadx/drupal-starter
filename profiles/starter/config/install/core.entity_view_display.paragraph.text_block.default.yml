@@ -2,8 +2,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.text_block.field_string
     - field.field.paragraph.text_block.field_text
+    - field.field.paragraph.text_block.field_title
     - paragraphs.paragraphs_type.text_block
   module:
     - text
@@ -12,19 +12,18 @@ targetEntityType: paragraph
 bundle: text_block
 mode: default
 content:
-  field_string:
-    weight: 0
-    label: hidden
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
   field_text:
-    weight: 1
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
     type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
     region: content
 hidden: {  }
