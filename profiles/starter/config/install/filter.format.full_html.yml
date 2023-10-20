@@ -2,7 +2,10 @@ langcode: en
 status: true
 dependencies:
   module:
+    - editor
+    - function_filter
     - image_resize_filter
+    - improvements
 name: 'Full HTML'
 format: full_html
 weight: -10
@@ -11,7 +14,7 @@ filters:
     id: filter_htmlcorrector
     provider: filter
     status: true
-    weight: -47
+    weight: -46
     settings: {  }
   filter_url:
     id: filter_url
@@ -20,12 +23,6 @@ filters:
     weight: -50
     settings:
       filter_url_length: 72
-  filter_image_link_to_source:
-    id: filter_image_link_to_source
-    provider: image_resize_filter
-    status: true
-    weight: -48
-    settings: {  }
   filter_image_resize:
     id: filter_image_resize
     provider: image_resize_filter
@@ -33,5 +30,11 @@ filters:
     weight: -49
     settings:
       image_locations:
-        local: 1
-        remote: 0
+        local: true
+        remote: false
+  filter_align:
+    id: filter_align
+    provider: filter
+    status: true
+    weight: -48
+    settings: {  }
