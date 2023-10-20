@@ -6,7 +6,7 @@ dependencies:
     - image_resize_filter
 name: 'Raw HTML'
 format: raw_html
-weight: 3
+weight: -8
 filters:
   filter_image_resize:
     id: filter_image_resize
