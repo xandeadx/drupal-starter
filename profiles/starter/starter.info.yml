@@ -30,18 +30,14 @@ install:
   - admin_toolbar:admin_toolbar
   - admin_toolbar:admin_toolbar_tools
   - backup_migrate:backup_migrate
-  - captcha:captcha
-  - colorbox:colorbox
   - contact_storage:contact_storage
   - devel:devel
   - devel_php:devel_php
-  - image_resize_filter:image_resize_filter
   - metatag:metatag
   - module_filter:module_filter
   - paragraphs:paragraphs
   - pathauto:pathauto
   - symfony_mailer:symfony_mailer
-  - transliterate_filenames:transliterate_filenames
   - twig_tweak:twig_tweak
   - xmlsitemap:xmlsitemap
   # My

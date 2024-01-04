@@ -17,13 +17,10 @@
 
         "drupal/admin_toolbar": "*",
         "drupal/backup_migrate": "*",
-        "drupal/captcha": "*",
-        "drupal/colorbox": "*",
         "drupal/contact_storage": "*",
         "drupal/devel": "*",
         "drupal/devel_php": "*",
         "drupal/extra_field": "*",
-        "drupal/image_resize_filter": "*",
         "drupal/metatag": "*",
         "drupal/module_filter": "*",
         "drupal/paragraphs": "*",
@@ -31,7 +28,6 @@
         "drupal/seven": "*",
         "drupal/symfony_mailer": "*",
         "drupal/token": "*",
-        "drupal/transliterate_filenames": "*",
         "drupal/twig_tweak": "*",
         "drupal/xmlsitemap": "*",
 
@@ -51,9 +47,9 @@
     },
     "require-dev": {
         "codeception/codeception": "^5",
-        "codeception/module-asserts": "^3",
-        "codeception/module-db": "^3",
-        "codeception/module-webdriver": "^3",
+        "codeception/module-asserts": "*",
+        "codeception/module-db": "*",
+        "codeception/module-webdriver": "*",
         "xandeadx/codeception-module-drupalhelper": "*"
     },
     "conflict": {

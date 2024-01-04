@@ -1,12 +1,9 @@
 <?php
 
-use Drupal\Component\Utility\OpCodeCache;
-use Drupal\Core\Site\Settings;
-
 /**
  * Implements hook_install_tasks().
  */
-function starter_install_tasks(&$install_state) {
+function starter_install_tasks(&$install_state): array {
   return [
     'starter_override_config' => [],
   ];
@@ -15,7 +12,7 @@ function starter_install_tasks(&$install_state) {
 /**
  * Override config.
  */
-function starter_override_config() {
+function starter_override_config(): void {
   $config_factory = \Drupal::configFactory();
 
   $config = [
