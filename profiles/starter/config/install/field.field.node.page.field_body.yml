@@ -27,13 +27,4 @@ settings:
       slide:
         enabled: true
         weight: -6
-      slideshow:
-        weight: -7
-        enabled: false
-      text:
-        weight: -9
-        enabled: false
-      text_block:
-        weight: -8
-        enabled: false
 field_type: entity_reference_revisions

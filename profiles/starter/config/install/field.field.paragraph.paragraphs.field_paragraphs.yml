@@ -24,22 +24,7 @@ settings:
       slide: slide
     negate: 1
     target_bundles_drag_drop:
-      paragraphs:
-        weight: -10
-        enabled: false
-      paragraphs_block:
-        weight: -9
-        enabled: false
       slide:
         weight: -8
         enabled: true
-      slideshow:
-        weight: -11
-        enabled: false
-      text:
-        weight: -13
-        enabled: false
-      text_block:
-        weight: -12
-        enabled: false
 field_type: entity_reference_revisions

@@ -25,22 +25,10 @@ settings:
       paragraphs_block: paragraphs_block
     negate: 1
     target_bundles_drag_drop:
-      paragraphs:
-        weight: -8
-        enabled: false
       paragraphs_block:
         weight: 8
         enabled: true
       slide:
         weight: -7
         enabled: true
-      slideshow:
-        weight: -9
-        enabled: false
-      text:
-        weight: -11
-        enabled: false
-      text_block:
-        weight: -10
-        enabled: false
 field_type: entity_reference_revisions
