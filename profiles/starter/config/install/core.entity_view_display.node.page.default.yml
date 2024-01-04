@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.field_body
-    - field.field.node.page.field_global_metatags
+    - field.field.node.page.field_metatags
     - node.type.page
   module:
     - entity_reference_revisions
@@ -31,6 +31,6 @@ content:
       link_to_entity: false
     third_party_settings: {  }
 hidden:
-  field_global_metatags: true
+  field_metatags: true
   label: true
   links: true

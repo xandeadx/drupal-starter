@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.field_body
-    - field.field.node.page.field_global_metatags
+    - field.field.node.page.field_metatags
     - node.type.page
   module:
     - metatag
@@ -33,7 +33,7 @@ content:
         duplicate: '0'
     third_party_settings: {  }
     region: content
-  field_global_metatags:
+  field_metatags:
     weight: 3
     settings:
       sidebar: true
