@@ -3,26 +3,10 @@ status: true
 dependencies:
   module:
     - function_filter
-    - image_resize_filter
 name: 'Raw HTML'
 format: raw_html
 weight: -8
 filters:
-  filter_image_resize:
-    id: filter_image_resize
-    provider: image_resize_filter
-    status: true
-    weight: 1
-    settings:
-      image_locations:
-        local: 1
-        remote: 0
-  filter_image_link_to_source:
-    id: filter_image_link_to_source
-    provider: image_resize_filter
-    status: true
-    weight: 2
-    settings: {  }
   function_filter:
     id: function_filter
     provider: function_filter
