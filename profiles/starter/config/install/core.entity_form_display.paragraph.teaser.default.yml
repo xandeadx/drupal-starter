@@ -9,7 +9,6 @@ dependencies:
     - paragraphs.paragraphs_type.teaser
   module:
     - image
-    - improvements_admin
     - link
     - text
 id: paragraph.teaser.default

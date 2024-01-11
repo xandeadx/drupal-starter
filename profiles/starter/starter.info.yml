@@ -44,6 +44,17 @@ install:
   - druhels:druhels
   - function_filter:function_filter
   - improvements:improvements
+  - improvements:improvements_admin
+  - improvements:improvements_comment
+  - improvements:improvements_contact
+  - improvements:improvements_form
+  - improvements:improvements_menu
+  - improvements:improvements_node
+  - improvements:improvements_site_information
+  - improvements:improvements_taxonomy
+  - improvements:improvements_title
+  - improvements:improvements_toolbar
+  - improvements:improvements_views
   - menu_bulk_add_items:menu_bulk_add_items
   - textarea_file_drag:textarea_file_drag
   # Custom
