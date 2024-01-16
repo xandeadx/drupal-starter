@@ -21,6 +21,7 @@
         "drupal/devel": "*",
         "drupal/devel_php": "*",
         "drupal/extra_field": "*",
+        "drupal/extra_field_plus": "*",
         "drupal/metatag": "*",
         "drupal/module_filter": "*",
         "drupal/paragraphs": "*",

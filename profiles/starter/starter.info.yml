@@ -33,6 +33,7 @@ install:
   - contact_storage:contact_storage
   - devel:devel
   - devel_php:devel_php
+  - extra_field_plus:extra_field_plus
   - metatag:metatag
   - module_filter:module_filter
   - paragraphs:paragraphs
