@@ -33,7 +33,7 @@ function starter_override_config(): void {
     ],
     'views.settings' => [
       'ui.show.advanced_column' => TRUE,
-      'ui.show.master_display' => TRUE,
+      'ui.show.default_display' => TRUE,
       'ui.show.performance_statistics' => TRUE,
       'ui.show.sql_query.enabled' => TRUE,
       'ui.show.display_embed' => TRUE,
