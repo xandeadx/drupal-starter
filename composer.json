@@ -20,6 +20,7 @@
         "drupal/contact_storage": "*",
         "drupal/devel": "*",
         "drupal/devel_php": "*",
+        "drupal/examples": "*",
         "drupal/extra_field": "*",
         "drupal/extra_field_plus": "*",
         "drupal/metatag": "*",
