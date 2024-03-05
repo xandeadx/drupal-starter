@@ -52,12 +52,10 @@ class AcceptanceTester extends \Codeception\Actor {
     }
 
     // Delete new files entity
-    $test_products_images_ids = $this->grabProductsImagesIds(array_column($this->products, 'id'));
     $new_files_ids = $this->sqlQuery("
       SELECT f.fid
       FROM file_managed f
       WHERE f.created > $dump_timestamp
-      " . ($test_products_images_ids ? "AND f.fid NOT IN (" . implode(', ', $test_products_images_ids) . ")"  : "") . "
     ")->fetchAll(PDO::FETCH_COLUMN);
     if ($new_files_ids) {
       $this->deleteEntities('file', $new_files_ids);

@@ -1,8 +1,8 @@
 <?php
 
-define('ENVIRONMENT', 'test');
+const ENVIRONMENT = 'test';
 
-require_once DRUPAL_ROOT . '/sites/settings.php';
+require_once DRUPAL_ROOT . '/sites/settings.global.php';
 require_once DRUPAL_ROOT . '/sites/settings.dev.php';
 
 $databases['default']['default'] = array (
@@ -12,6 +12,10 @@ $databases['default']['default'] = array (
   'prefix' => '',
   'host' => 'localhost',
   'port' => '',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'isolation_level' => 'READ COMMITTED',
+  'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
   'driver' => 'mysql',
+  'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
+
+$config['symfony_mailer.settings']['default_transport'] = 'null';
