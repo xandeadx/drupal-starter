@@ -1,0 +1,30 @@
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraphs
+    - paragraphs.paragraphs_type.teaser
+    - paragraphs.paragraphs_type.teasers
+  module:
+    - entity_reference_revisions
+id: paragraph.teasers.field_paragraphs
+field_name: field_paragraphs
+entity_type: paragraph
+bundle: teasers
+label: Тизеры
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      teaser: teaser
+    negate: 0
+    target_bundles_drag_drop:
+      teaser:
+        weight: -12
+        enabled: true
+field_type: entity_reference_revisions

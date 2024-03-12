@@ -1,8 +1,8 @@
-langcode: en
+langcode: ru
 status: true
 dependencies: {  }
 id: slideshow
-label: Slideshow
+label: 'Слайдшоу'
 icon_uuid: null
 icon_default: null
 description: ''

@@ -1,8 +1,8 @@
-langcode: en
+langcode: ru
 status: true
 dependencies: {  }
 id: teaser
-label: Тизер
+label: 'Тизер'
 icon_uuid: null
 icon_default: null
 description: ''

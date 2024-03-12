@@ -1,0 +1,10 @@
+langcode: ru
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.link_outer
+label: 'Ссылка весь тизер'
+description: ''
+targetEntityType: paragraph
+cache: true

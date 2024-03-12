@@ -1,8 +1,10 @@
 langcode: ru
 status: true
-dependencies: {  }
-id: paragraphs_block
-label: 'Блок с параграфами'
+dependencies:
+  module:
+    - improvements_paragraphs
+id: teasers
+label: 'Тизеры'
 icon_uuid: null
 icon_default: null
 description: ''

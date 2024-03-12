@@ -34,6 +34,7 @@ install:
   - devel:devel
   - devel_php:devel_php
   - extra_field_plus:extra_field_plus
+  - filter_twig:filter_twig
   - metatag:metatag
   - module_filter:module_filter
   - paragraphs:paragraphs
@@ -43,7 +44,6 @@ install:
   - xmlsitemap:xmlsitemap
   # My
   - druhels:druhels
-  - function_filter:function_filter
   - improvements:improvements
   - improvements:improvements_admin
   - improvements:improvements_comment
@@ -51,6 +51,7 @@ install:
   - improvements:improvements_form
   - improvements:improvements_menu
   - improvements:improvements_node
+  - improvements:improvements_paragraphs
   - improvements:improvements_site_information
   - improvements:improvements_taxonomy
   - improvements:improvements_title

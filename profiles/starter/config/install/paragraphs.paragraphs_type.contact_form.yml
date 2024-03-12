@@ -1,8 +1,8 @@
-langcode: en
+langcode: ru
 status: true
 dependencies: {  }
 id: contact_form
-label: 'Contact form'
+label: 'Контактная форма'
 icon_uuid: null
 icon_default: null
 description: ''
