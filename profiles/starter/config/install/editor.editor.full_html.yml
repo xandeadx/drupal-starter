@@ -12,14 +12,17 @@ settings:
     items:
       - undo
       - redo
+      - removeFormat
       - bold
       - italic
       - link
       - bulletedList
       - numberedList
-      - specialCharacters
+      - drupalInsertImage
       - insertTable
+      - specialCharacters
       - heading
+      - sourceEditing
   plugins:
     ckeditor5_heading:
       enabled_headings:
@@ -28,7 +31,20 @@ settings:
         - heading4
         - heading5
         - heading6
+    ckeditor5_imageResize:
+      allow_resize: true
     ckeditor5_list:
-      reversed: true
-      startIndex: true
-image_upload: {  }
+      properties:
+        reversed: false
+        startIndex: false
+      multiBlock: true
+    ckeditor5_sourceEditing:
+      allowed_tags: {  }
+image_upload:
+  status: true
+  scheme: public
+  directory: managed/usergen/inline-images
+  max_size: ''
+  max_dimensions:
+    width: 0
+    height: 0
