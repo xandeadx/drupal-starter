@@ -1,13 +1,13 @@
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
     - field.field.node.page.field_body
+    - field.field.node.page.field_display_settings
     - field.field.node.page.field_metatags
     - node.type.page
   module:
     - entity_reference_revisions
-    - user
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -15,22 +15,20 @@ mode: default
 content:
   field_body:
     type: entity_reference_revisions_entity_view
-    weight: 1
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    weight: 0
     region: content
-  title:
-    label: hidden
-    type: string
-    weight: -5
-    region: content
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
 hidden:
+  created: true
+  extra_field_read_more_link: true
+  field_display_settings: true
   field_metatags: true
   label: true
+  langcode: true
   links: true
+  title: true
+  uid: true

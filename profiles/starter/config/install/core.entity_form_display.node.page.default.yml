@@ -1,8 +1,9 @@
-langcode: en
+langcode: ru
 status: true
 dependencies:
   config:
     - field.field.node.page.field_body
+    - field.field.node.page.field_display_settings
     - field.field.node.page.field_metatags
     - node.type.page
   module:
@@ -17,9 +18,10 @@ content:
   field_body:
     type: paragraphs
     weight: 1
+    region: content
     settings:
-      title: Item
-      title_plural: Items
+      title: Элемент
+      title_plural: Элементы
       edit_mode: closed
       closed_mode: summary
       autocollapse: all
@@ -32,40 +34,32 @@ content:
         collapse_edit_all: '0'
         duplicate: '0'
     third_party_settings: {  }
-    region: content
-  field_metatags:
-    weight: 3
-    settings:
-      sidebar: true
-    third_party_settings: {  }
-    type: metatag_firehose
-    region: content
-  path:
-    type: path
-    weight: 2
+  field_display_settings:
+    type: options_buttons
+    weight: 26
     region: content
     settings: {  }
     third_party_settings: {  }
-  promote:
-    type: boolean_checkbox
-    settings:
-      display_label: true
-    weight: 6
+  field_metatags:
+    type: metatag_firehose
+    weight: 4
     region: content
+    settings:
+      sidebar: true
+      use_details: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    settings:
-      display_label: true
-    weight: 4
-    region: content
-    third_party_settings: {  }
-  sticky:
-    type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 5
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
@@ -77,4 +71,7 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  langcode: true
+  promote: true
+  sticky: true
   uid: true

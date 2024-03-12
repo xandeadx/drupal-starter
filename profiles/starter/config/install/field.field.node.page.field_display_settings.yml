@@ -1,0 +1,20 @@
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_display_settings
+    - node.type.page
+  module:
+    - options
+id: node.page.field_display_settings
+field_name: field_display_settings
+entity_type: node
+bundle: page
+label: 'Настройки отображения'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
