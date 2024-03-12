@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - filter_twig
+name: Twig
+format: twig
+weight: 0
+filters:
+  filter_twig:
+    id: filter_twig
+    provider: filter_twig
+    status: true
+    weight: 0
+    settings: {  }

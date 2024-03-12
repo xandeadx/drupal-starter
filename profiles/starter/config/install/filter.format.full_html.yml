@@ -3,8 +3,6 @@ status: true
 dependencies:
   module:
     - editor
-    - function_filter
-    - improvements
 name: 'Full HTML'
 format: full_html
 weight: -10
