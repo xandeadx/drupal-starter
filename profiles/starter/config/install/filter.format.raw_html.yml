@@ -1,15 +1,7 @@
-langcode: en
+langcode: ru
 status: true
-dependencies:
-  module:
-    - function_filter
-name: 'Raw HTML'
+dependencies: {  }
+name: 'Необработанный HTML'
 format: raw_html
 weight: -8
-filters:
-  function_filter:
-    id: function_filter
-    provider: function_filter
-    status: true
-    weight: 3
-    settings: {  }
+filters: {  }

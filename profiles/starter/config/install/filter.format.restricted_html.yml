@@ -1,7 +1,7 @@
-langcode: en
+langcode: ru
 status: true
 dependencies: {  }
-name: 'Restricted HTML'
+name: 'Ограниченный HTML'
 format: restricted_html
 weight: -9
 roles:

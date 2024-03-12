@@ -1,9 +1,9 @@
-langcode: en
+langcode: ru
 status: true
 dependencies:
   module:
     - editor
-name: 'Full HTML'
+name: 'Полный HTML'
 format: full_html
 weight: -10
 filters:
