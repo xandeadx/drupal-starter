@@ -1,4 +1,4 @@
-langcode: ru
+langcode: en
 status: true
 dependencies:
   config:
@@ -10,7 +10,7 @@ id: node.page.field_display_settings
 field_name: field_display_settings
 entity_type: node
 bundle: page
-label: 'Настройки отображения'
+label: 'Display settings'
 description: ''
 required: false
 translatable: false
