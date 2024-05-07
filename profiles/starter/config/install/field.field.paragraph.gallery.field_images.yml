@@ -2,23 +2,25 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_image
-    - paragraphs.paragraphs_type.slide
+    - field.storage.paragraph.field_images
+    - paragraphs.paragraphs_type.gallery
   module:
     - image
-id: paragraph.slide.field_image
-field_name: field_image
+id: paragraph.gallery.field_images
+field_name: field_images
 entity_type: paragraph
-bundle: slide
-label: Image
+bundle: gallery
+label: Images
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: usergen/paragraph/slide/field-image
-  file_extensions: 'png gif jpg jpeg svg webp'
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: usergen/paragraph/gallery/field-images
+  file_extensions: 'png gif jpg jpeg webp svg'
   max_filesize: ''
   max_resolution: ''
   min_resolution: ''
@@ -32,6 +34,4 @@ settings:
     title: ''
     width: null
     height: null
-  handler: 'default:file'
-  handler_settings: {  }
 field_type: image

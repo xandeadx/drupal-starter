@@ -1,0 +1,2 @@
+allowed_extensions: 'jpg jpeg png gif webp svg zip rar 7z xls xlsx doc docx pdf txt'
+upload_path: 'public://usergen/unmanaged/inline'

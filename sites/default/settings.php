@@ -693,7 +693,7 @@ $settings['session_write_interval'] = 600;
 /**
  * Load services definition file.
  */
-$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/services.yml';
+$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/services.global.yml';
 
 /**
  * Override the default service container class.

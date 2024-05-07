@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - improvements_paragraphs
+id: gallery
+label: Gallery
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins:
+  html_attributes:
+    enabled: true

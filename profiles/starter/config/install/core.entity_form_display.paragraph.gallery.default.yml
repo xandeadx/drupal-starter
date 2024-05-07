@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.gallery.field_image_style
+    - field.field.paragraph.gallery.field_images
+    - image.style.admin
+    - paragraphs.paragraphs_type.gallery
+  module:
+    - image
+    - improvements_admin
+id: paragraph.gallery.default
+targetEntityType: paragraph
+bundle: gallery
+mode: default
+content:
+  field_image_style:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings:
+      improvements_admin:
+        empty_label: '- Select a value -'
+  field_images:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: admin
+    third_party_settings:
+      improvements_admin:
+        autoupload: '1'
+        upload_button_state: '2'
+hidden:
+  created: true
+  status: true

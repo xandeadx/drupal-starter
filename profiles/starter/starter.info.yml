@@ -20,6 +20,7 @@ install:
   - drupal:image
   - drupal:menu_link_content
   - drupal:menu_ui
+  - drupal:mysql
   - drupal:node
   - drupal:options
   - drupal:path
