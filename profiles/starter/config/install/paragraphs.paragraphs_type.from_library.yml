@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - improvements_paragraphs
+id: from_library
+label: 'Из библиотеки'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins:
+  publication_status:
+    enabled: true

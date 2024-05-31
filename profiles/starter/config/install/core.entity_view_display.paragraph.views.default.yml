@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.views.field_views
+    - paragraphs.paragraphs_type.views
+  module:
+    - improvements_views
+id: paragraph.views.default
+targetEntityType: paragraph
+bundle: views
+mode: default
+content:
+  field_views:
+    type: views_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
