@@ -1,4 +1,4 @@
-langcode: ru
+langcode: en
 status: true
 dependencies:
   config:
@@ -32,6 +32,7 @@ content:
       features:
         add_above: '0'
         collapse_edit_all: '0'
+        convert: convert
         duplicate: '0'
     third_party_settings: {  }
   field_display_settings:

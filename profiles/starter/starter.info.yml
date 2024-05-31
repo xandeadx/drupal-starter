@@ -39,8 +39,10 @@ install:
   - metatag:metatag
   - module_filter:module_filter
   - paragraphs:paragraphs
+  - paragraphs:paragraphs_library
   - pathauto:pathauto
   - symfony_mailer:symfony_mailer
+  - svg_image:svg_image
   - twig_tweak:twig_tweak
   - xmlsitemap:xmlsitemap
   # My

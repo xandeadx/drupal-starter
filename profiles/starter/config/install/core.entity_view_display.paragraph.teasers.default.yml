@@ -2,17 +2,27 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.teasers.field_columns
     - field.field.paragraph.teasers.field_paragraphs
     - field.field.paragraph.teasers.field_view_mode
     - paragraphs.paragraphs_type.teasers
   module:
     - entity_reference_revisions
-    - options
+    - improvements
 id: paragraph.teasers.default
 targetEntityType: paragraph
 bundle: teasers
 mode: default
 content:
+  field_columns:
+    type: entity_html_attribute_formatter
+    label: hidden
+    settings:
+      attribute_name: class
+      attribute_value_pattern: teasers-par--columns-@value
+    third_party_settings: {  }
+    weight: 1
+    region: content
   field_paragraphs:
     type: entity_reference_revisions_entity_view
     label: hidden
@@ -22,11 +32,5 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_view_mode:
-    type: list_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
-    region: content
-hidden: {  }
+hidden:
+  field_view_mode: true

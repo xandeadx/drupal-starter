@@ -11,7 +11,7 @@ id: node.page.field_body
 field_name: field_body
 entity_type: node
 bundle: page
-label: Body
+label: Содержимое
 description: ''
 required: false
 translatable: false
@@ -20,11 +20,41 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    negate: 1
     target_bundles:
       slide: slide
+    negate: 1
     target_bundles_drag_drop:
+      contact_form:
+        weight: -21
+        enabled: false
+      from_library:
+        weight: -14
+        enabled: false
+      gallery:
+        weight: -22
+        enabled: false
+      paragraphs:
+        weight: -20
+        enabled: false
+      paragraphs_block:
+        weight: -23
+        enabled: false
       slide:
+        weight: -13
         enabled: true
-        weight: -6
+      slideshow:
+        weight: -18
+        enabled: false
+      teaser:
+        weight: -16
+        enabled: false
+      teasers:
+        weight: -15
+        enabled: false
+      text:
+        weight: -17
+        enabled: false
+      views:
+        weight: -19
+        enabled: false
 field_type: entity_reference_revisions

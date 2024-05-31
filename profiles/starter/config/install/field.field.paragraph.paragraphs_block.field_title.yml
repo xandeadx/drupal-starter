@@ -11,7 +11,7 @@ id: paragraph.paragraphs_block.field_title
 field_name: field_title
 entity_type: paragraph
 bundle: paragraphs_block
-label: Title
+label: 'Заголовок блока'
 description: ''
 required: false
 translatable: false

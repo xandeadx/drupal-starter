@@ -5,7 +5,7 @@ dependencies:
     - field.field.paragraph.text.field_text
     - paragraphs.paragraphs_type.text
   module:
-    - improvements
+    - improvements_admin
     - text
 id: paragraph.text.default
 targetEntityType: paragraph
@@ -13,20 +13,21 @@ bundle: text
 mode: default
 content:
   field_text:
+    type: text_textarea_with_summary
     weight: 0
+    region: content
     settings:
       rows: 10
-      placeholder: ''
       summary_rows: 3
+      placeholder: ''
       show_summary: false
     third_party_settings:
-      improvements:
-        max_length: null
-        dynamic_height: true
-        disable_editor: false
-        hide_format_select: false
-    type: text_textarea_with_summary
-    region: content
+      improvements_admin:
+        max_length: ''
+        dynamic_height: '1'
+        disable_editor: 0
+        hide_format_select: 0
+        hide_label: 0
 hidden:
   created: true
   status: true

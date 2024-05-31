@@ -6,7 +6,7 @@ dependencies:
     - field.field.paragraph.paragraphs_block.field_title
     - paragraphs.paragraphs_type.paragraphs_block
   module:
-    - improvements
+    - improvements_admin
     - paragraphs
     - text
 id: paragraph.paragraphs_block.default
@@ -19,8 +19,8 @@ content:
     weight: 1
     region: content
     settings:
-      title: Paragraph
-      title_plural: Paragraphs
+      title: Элемент
+      title_plural: Элементы
       edit_mode: closed
       closed_mode: summary
       autocollapse: all
@@ -31,6 +31,7 @@ content:
       features:
         add_above: '0'
         collapse_edit_all: '0'
+        convert: '0'
         duplicate: '0'
     third_party_settings: {  }
   field_title:
@@ -41,15 +42,9 @@ content:
       size: 60
       placeholder: ''
     third_party_settings:
-      improvements:
-        hide_format_select: true
-        hide_label: false
-  status:
-    type: boolean_checkbox
-    weight: 2
-    region: content
-    settings:
-      display_label: true
-    third_party_settings: {  }
+      improvements_admin:
+        hide_format_select: '1'
+        hide_label: 0
 hidden:
   created: true
+  status: true

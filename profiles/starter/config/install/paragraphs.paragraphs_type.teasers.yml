@@ -1,13 +1,26 @@
-langcode: ru
+langcode: en
 status: true
 dependencies:
   module:
     - improvements_paragraphs
 id: teasers
-label: 'Тизеры'
+label: Тизеры
 icon_uuid: null
 icon_default: null
 description: ''
 behavior_plugins:
   html_attributes:
+    enabled: true
+  style_selector:
+    enabled: true
+    styles:
+      icon_left:
+        label: 'Иконки слева'
+        class: ''
+        option0: teaser-par--icon-left
+      icon_right:
+        label: 'Иконки справа'
+        class: ''
+        option0: teaser-par--icon-right
+  view_mode:
     enabled: true

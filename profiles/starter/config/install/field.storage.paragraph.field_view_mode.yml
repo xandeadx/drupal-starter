@@ -1,4 +1,4 @@
-langcode: ru
+langcode: en
 status: true
 dependencies:
   module:
@@ -11,14 +11,11 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: link_outer
-      label: 'Ссылка весь тизер'
+      value: icon_left
+      label: 'Иконка слева'
     -
-      value: link_title
-      label: 'Ссылка в заголовке'
-    -
-      value: link_field
-      label: 'Ссылка отдельным полем'
+      value: icon_top
+      label: 'Иконка сверху'
   allowed_values_function: ''
 module: options
 locked: false

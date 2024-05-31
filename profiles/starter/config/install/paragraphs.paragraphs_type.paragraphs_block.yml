@@ -1,6 +1,12 @@
-langcode: ru
+langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - improvements_paragraphs
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
 id: paragraphs_block
 label: 'Блок с параграфами'
 icon_uuid: null
@@ -8,4 +14,6 @@ icon_default: null
 description: ''
 behavior_plugins:
   html_attributes:
+    enabled: true
+  publication_status:
     enabled: true
