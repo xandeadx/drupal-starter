@@ -15,12 +15,18 @@ behavior_plugins:
     enabled: true
     styles:
       icon_left:
-        label: 'Иконки слева'
-        class: ''
-        option0: teaser-par--icon-left
+        name: 'Иконки слева'
+        child_attributes:
+          class: teaser-par--icon-left
       icon_right:
-        label: 'Иконки справа'
-        class: ''
-        option0: teaser-par--icon-right
-  view_mode:
-    enabled: true
+        name: 'Иконки справа'
+        child_attributes:
+          class: teaser-par--icon-right
+      columns_2:
+        name: 'В две колонки'
+        attributes:
+          class: teasers-par--columns-2
+      columns_3:
+        name: 'В три колонки'
+        attributes:
+          class: teasers-par--columns-3

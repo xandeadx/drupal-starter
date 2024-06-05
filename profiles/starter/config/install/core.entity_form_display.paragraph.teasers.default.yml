@@ -2,9 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.teasers.field_columns
     - field.field.paragraph.teasers.field_paragraphs
-    - field.field.paragraph.teasers.field_view_mode
     - paragraphs.paragraphs_type.teasers
   module:
     - paragraphs
@@ -13,13 +11,6 @@ targetEntityType: paragraph
 bundle: teasers
 mode: default
 content:
-  field_columns:
-    type: number
-    weight: 1
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
   field_paragraphs:
     type: paragraphs
     weight: 0
@@ -39,12 +30,6 @@ content:
         collapse_edit_all: '0'
         convert: '0'
         duplicate: '0'
-    third_party_settings: {  }
-  field_view_mode:
-    type: options_select
-    weight: 2
-    region: content
-    settings: {  }
     third_party_settings: {  }
 hidden:
   created: true
