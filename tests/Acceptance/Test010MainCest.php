@@ -4,7 +4,7 @@ namespace Tests\Acceptance;
 
 use Tests\Support\AcceptanceTester;
 
-class Test010HelpersCest extends AcceptanceBase {
+class Test010MainCest extends AcceptanceBase {
 
   public function testLoginAsAdmin(AcceptanceTester $I): void {
     $I->amOnDrupalPage('/user/1');
