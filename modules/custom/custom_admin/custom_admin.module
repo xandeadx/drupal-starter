@@ -1,2 +1,17 @@
 <?php
 
+/**
+ * Implements hook_page_attachments().
+ */
+function custom_admin_page_attachments(array &$page): void {
+  $page['#attached']['library'][] = 'custom_admin/admin-styles';
+}
+
+/**
+ * Implements hook_field_widget_complete_WIDGET_TYPE_form_alter(): paragraphs.
+ */
+function custom_admin_field_widget_complete_paragraphs_form_alter(array &$elements, FormStateInterface $form_state, array $context): void {
+  if (isset($elements['widget']['add_more']['#suffix'])) {
+    $elements['widget']['add_more']['#suffix'] = '';
+  }
+}

@@ -1,0 +1,4 @@
+admin-styles:
+  css:
+    theme:
+      assets/admin.css: {}

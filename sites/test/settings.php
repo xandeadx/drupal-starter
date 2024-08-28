@@ -2,15 +2,15 @@
 
 const ENVIRONMENT = 'test';
 
-require_once DRUPAL_ROOT . '/sites/settings.global.php';
-require_once DRUPAL_ROOT . '/sites/settings.dev.php';
+require DRUPAL_ROOT . '/sites/settings.global.php';
+require DRUPAL_ROOT . '/sites/settings.dev.php';
 
 $databases['default']['default'] = array (
   'database' => 'example_test',
   'username' => 'mysql',
   'password' => 'mysql',
   'prefix' => '',
-  'host' => 'localhost',
+  'host' => 'mariadb-11.2',
   'port' => '',
   'isolation_level' => 'READ COMMITTED',
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',

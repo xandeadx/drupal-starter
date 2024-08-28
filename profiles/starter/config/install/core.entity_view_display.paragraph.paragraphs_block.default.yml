@@ -2,17 +2,34 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.paragraphs_block.field_image
     - field.field.paragraph.paragraphs_block.field_paragraphs
     - field.field.paragraph.paragraphs_block.field_title
     - paragraphs.paragraphs_type.paragraphs_block
   module:
     - entity_reference_revisions
+    - svg_image
     - text
 id: paragraph.paragraphs_block.default
 targetEntityType: paragraph
 bundle: paragraphs_block
 mode: default
 content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: eager
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
   field_paragraphs:
     type: entity_reference_revisions_entity_view
     label: hidden
@@ -20,13 +37,13 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
   field_title:
     type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
 hidden: {  }

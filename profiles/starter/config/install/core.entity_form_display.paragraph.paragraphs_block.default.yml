@@ -2,18 +2,31 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.paragraphs_block.field_image
     - field.field.paragraph.paragraphs_block.field_paragraphs
     - field.field.paragraph.paragraphs_block.field_title
     - paragraphs.paragraphs_type.paragraphs_block
   module:
     - improvements_admin
     - paragraphs
+    - svg_image
     - text
 id: paragraph.paragraphs_block.default
 targetEntityType: paragraph
 bundle: paragraphs_block
 mode: default
 content:
+  field_image:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: ''
+    third_party_settings:
+      improvements_admin:
+        autoupload: '1'
+        upload_button_state: '2'
   field_paragraphs:
     type: paragraphs
     weight: 1

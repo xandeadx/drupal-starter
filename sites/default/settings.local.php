@@ -1,19 +1,21 @@
 <?php
 
-require_once DRUPAL_ROOT . '/sites/settings.global.php';
-require_once DRUPAL_ROOT . '/sites/settings.dev.php';
+const ENVIRONMENT = 'dev';
+
+require DRUPAL_ROOT . '/sites/settings.global.php';
+require DRUPAL_ROOT . '/sites/settings.dev.php';
 
 $databases['default']['default'] = array (
   'database' => 'drupal',
   'username' => 'root',
   'password' => 'root',
   'prefix' => '',
-  'host' => 'localhost',
+  'host' => 'mariadb-11.2',
   'port' => '',
   'isolation_level' => 'READ COMMITTED',
   'driver' => 'mysql',
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
-  'autoload' => 'core/modules/mysql\\src\\Driver\\Database\\mysql\\',
+  'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 
 $settings['disable_captcha'] = TRUE;

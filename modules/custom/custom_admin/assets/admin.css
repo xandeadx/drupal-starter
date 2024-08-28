@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+  .is-horizontal .paragraphs-tabs:first-of-type {
+    top: var(--admin-toolbar-height, 5px) !important;
+  }
+}
