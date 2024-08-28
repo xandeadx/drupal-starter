@@ -2,4 +2,4 @@ name: Custom Admin
 type: module
 description: Admin functionality.
 package: Custom
-core_version_requirement: ^10
+core_version_requirement: ^10 || ^11 || ^12 || ^13 || ^14 || ^15
