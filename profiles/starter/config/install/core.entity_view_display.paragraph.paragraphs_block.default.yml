@@ -5,6 +5,7 @@ dependencies:
     - field.field.paragraph.paragraphs_block.field_image
     - field.field.paragraph.paragraphs_block.field_paragraphs
     - field.field.paragraph.paragraphs_block.field_title
+    - field.field.paragraph.paragraphs_block.field_title_tag
     - paragraphs.paragraphs_type.paragraphs_block
   module:
     - entity_reference_revisions
@@ -46,4 +47,5 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-hidden: {  }
+hidden:
+  field_title_tag: true

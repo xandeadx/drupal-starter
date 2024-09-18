@@ -5,6 +5,7 @@ dependencies:
     - field.field.paragraph.paragraphs_block.field_image
     - field.field.paragraph.paragraphs_block.field_paragraphs
     - field.field.paragraph.paragraphs_block.field_title
+    - field.field.paragraph.paragraphs_block.field_title_tag
     - paragraphs.paragraphs_type.paragraphs_block
   module:
     - improvements_admin
@@ -58,6 +59,12 @@ content:
       improvements_admin:
         hide_format_select: '1'
         hide_label: 0
+  field_title_tag:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   created: true
   status: true

@@ -15,5 +15,9 @@ description: ''
 behavior_plugins:
   html_attributes:
     enabled: true
+  move_widget:
+    enabled: true
+    fields:
+      field_title_tag: '1000'
   publication_status:
     enabled: true
