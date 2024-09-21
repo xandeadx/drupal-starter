@@ -31,6 +31,7 @@ install:
   - admin_toolbar:admin_toolbar
   - admin_toolbar:admin_toolbar_tools
   - backup_migrate:backup_migrate
+  - captcha:captcha
   - contact_storage:contact_storage
   - devel:devel
   - devel_php:devel_php

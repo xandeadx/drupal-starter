@@ -17,6 +17,7 @@
 
         "drupal/admin_toolbar": "*",
         "drupal/backup_migrate": "*",
+        "drupal/captcha": "*",
         "drupal/contact_storage": "*",
         "drupal/devel": "*",
         "drupal/devel_php": "*",
