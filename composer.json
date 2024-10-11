@@ -44,7 +44,7 @@
         "drupal/textarea_file_drag": "1.x-dev",
         "drupal/xseven": "2.x-dev",
         
-        "drush/drush": "*",
+        "drush/drush": "13.2.*",
         "kint-php/kint": "*",
         
         "composer/installers": "*",
