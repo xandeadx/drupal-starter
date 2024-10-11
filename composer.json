@@ -73,7 +73,8 @@
             "drupal/core-vendor-hardening": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "php-http/discovery": true,
-            "phpstan/extension-installer": true
+            "phpstan/extension-installer": true,
+            "tbachert/spi": true
         }
     },
     "extra": {
