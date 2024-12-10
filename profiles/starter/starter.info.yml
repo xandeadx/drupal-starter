@@ -1,7 +1,7 @@
 name: Starter
 type: profile
 description: Drupal starter profile
-core_version_requirement: ^10
+core_version_requirement: ^10 || ^11 || ^12 || ^13 || ^14 || ^15
 install:
   # Core
   - drupal:automated_cron
