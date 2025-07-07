@@ -30,7 +30,6 @@
         "drupal/module_filter": "*",
         "drupal/paragraphs": "*",
         "drupal/pathauto": "*",
-        "drupal/seven": "*",
         "drupal/symfony_mailer": "*",
         "drupal/svg_image": "*",
         "drupal/token": "*",
@@ -42,7 +41,6 @@
         "drupal/improvements": "3.x-dev",
         "drupal/menu_bulk_add_items": "1.x-dev",
         "drupal/textarea_file_drag": "1.x-dev",
-        "drupal/xseven": "2.x-dev",
         
         "drush/drush": "*",
         "kint-php/kint": "*",

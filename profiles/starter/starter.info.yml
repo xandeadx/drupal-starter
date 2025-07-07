@@ -69,4 +69,3 @@ install:
   - custom_seo:custom_seo
 themes:
   - xtheme
-  - xseven
